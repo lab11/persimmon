@@ -9602,22 +9602,19 @@ type V526-0, grid 2.5 mm</description>
 <attribute name="MPN" value="GRM155R71C103KA01D"/>
 </part>
 <part name="C3" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10nF">
-<attribute name="DESCRIPTION" value="CAP CER 10000PF 16V X7R 0402"/>
-<attribute name="DIGIKEY" value="490-1313-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MPN" value="GRM155R71C103KA01D"/>
+<attribute name="DIGIKEY" value="490-7194-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM033R61E103KA12D"/>
 </part>
 <part name="C7" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V X5R 0402"/>
-<attribute name="DIGIKEY" value="311-1336-1-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0402KRX5R6BB104"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C14" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF">
-<attribute name="DESCRIPTION" value="CAP CER 10UF 6.3V X5R 0402"/>
-<attribute name="DIGIKEY" value="490-13211-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MPN" value="GRJ155R60J106ME11D"/>
+<attribute name="DIGIKEY" value="490-12538-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM188R60J106KE47D"/>
 </part>
 <part name="D5" library="leds" deviceset="LED" device="0603" value="BLUE">
 <attribute name="DESCRIPTION" value="LED BLUE CLEAR SMD"/>
@@ -10163,12 +10160,11 @@ type V526-0, grid 2.5 mm</description>
 </parts>
 <sheets>
 <sheet>
-<description>GPS and WiFi Radios</description>
+<description>GPS</description>
 <plain>
 <text x="-6.096" y="112.014" size="2.032" layer="98" align="top-right">https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf</text>
-<text x="-35.56" y="17.78" size="5.08" layer="98" align="top-right">GPS and WiFi Radios</text>
 <text x="-121.92" y="21.59" size="5.08" layer="94" align="bottom-center">LNA</text>
-<text x="-93.98" y="99.06" size="3.048" layer="98" align="top-right">GPS</text>
+<text x="-99.06" y="101.6" size="3.048" layer="98" align="top-right">GPS</text>
 <text x="-77.47" y="34.29" size="5.08" layer="94" align="bottom-center">SAW</text>
 </plain>
 <instances>
@@ -11307,6 +11303,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 </nets>
 </sheet>
 <sheet>
+<description>NRF</description>
 <plain>
 </plain>
 <instances>
@@ -12014,6 +12011,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 </nets>
 </sheet>
 <sheet>
+<description>Power Suppy and Charging</description>
 <plain>
 <text x="35.56" y="73.66" size="3.81" layer="98" align="bottom-center">Power Supply and Charging</text>
 </plain>
@@ -12451,6 +12449,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 </nets>
 </sheet>
 <sheet>
+<description>Sara U201</description>
 <plain>
 <text x="177.8" y="160.02" size="2.54" layer="97">Level Translator, GSM_INT = 1.8V</text>
 <wire x1="93.98" y1="50.8" x2="96.52" y2="53.34" width="0.254" layer="96"/>
@@ -13041,6 +13040,7 @@ prevent glitching</text>
 </nets>
 </sheet>
 <sheet>
+<description>Sim Card Muxes</description>
 <plain>
 </plain>
 <instances>
