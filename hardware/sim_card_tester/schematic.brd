@@ -2201,14 +2201,14 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C42" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="20.5232" y="6.8326" smashed="yes">
+<element name="C43" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="20.5232" y="6.8326" smashed="yes">
 <attribute name="DIGIKEY" value="490-12538-1-ND" x="20.5232" y="6.8326" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="20.5232" y="6.8326" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM188R60J106KE47D" x="20.5232" y="6.8326" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.5232" y="7.8326" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="19.5232" y="4.8326" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C43" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="17.8562" y="18.6182" smashed="yes">
+<element name="C44" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="17.8562" y="18.6182" smashed="yes">
 <attribute name="DIGIKEY" value="490-12538-1-ND" x="17.8562" y="18.6182" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="17.8562" y="18.6182" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM188R60J106KE47D" x="17.8562" y="18.6182" size="1.778" layer="27" display="off"/>
@@ -2235,13 +2235,13 @@ design rules under a new name.</description>
 <attribute name="MPN" value="CC0603JRNPO9BN470" x="64.3636" y="165.4556" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="92.3036" y="66.0146" size="1.016" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="C31" library="passives" package="0402_CAP" value="1uF" x="106.2736" y="57.9882" smashed="yes" rot="R180">
+<element name="C32" library="passives" package="0402_CAP" value="1uF" x="106.2736" y="57.9882" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="399-3118-1-ND" x="58.0136" y="148.1582" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="58.0136" y="148.1582" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="C0603C105K8PACTU" x="58.0136" y="148.1582" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="106.2736" y="57.6072" size="1.016" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="C41" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="46.4566" y="9.7282" smashed="yes">
+<element name="C42" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="46.4566" y="9.7282" smashed="yes">
 <attribute name="DIGIKEY" value="490-14372-1-ND" x="98.5266" y="-80.4418" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="98.5266" y="-80.4418" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM188R60J106KE47D" x="98.5266" y="-80.4418" size="1.778" layer="27" display="off"/>
@@ -2256,7 +2256,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="67.4624" y="13.3096" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="65.4624" y="14.3096" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C28" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF" x="141.5542" y="81.153" smashed="yes" rot="R270">
+<element name="C29" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF" x="141.5542" y="81.153" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="490-5405-1-ND" x="51.3842" y="21.463" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="141.5542" y="81.153" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="GRM033R61A104ME15D" x="141.5542" y="81.153" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2375,28 +2375,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="150.8092" y="91.4052" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="151.2156" y="91.5858" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C32" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF" x="28.2702" y="64.9478" smashed="yes" rot="R180">
+<element name="C33" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF" x="28.2702" y="64.9478" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="399-3118-1-ND" x="-40.3098" y="160.1978" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="28.2702" y="64.9478" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="C0603C105K8PACTU" x="-40.3098" y="160.1978" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="29.194" y="66.564" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="29.2702" y="66.9478" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C33" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF" x="38.2524" y="71.7042" smashed="yes">
+<element name="C34" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF" x="38.2524" y="71.7042" smashed="yes">
 <attribute name="DIGIKEY" value="399-3118-1-ND" x="110.6424" y="-23.5458" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="38.2524" y="71.7042" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C0603C105K8PACTU" x="110.6424" y="-23.5458" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.2524" y="72.7042" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="37.2524" y="69.7042" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C37" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="9.6012" y="14.5542" smashed="yes">
+<element name="C38" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="9.6012" y="14.5542" smashed="yes">
 <attribute name="DIGIKEY" value="490-10992-1-ND" x="9.6012" y="14.5542" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="9.6012" y="14.5542" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L" x="9.6012" y="14.5542" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.6012" y="15.5542" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.6012" y="12.5542" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C38" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="16.6878" y="21.7932" smashed="yes">
+<element name="C39" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="16.6878" y="21.7932" smashed="yes">
 <attribute name="DIGIKEY" value="490-10992-1-ND" x="16.6878" y="21.7932" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="16.6878" y="21.7932" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L" x="16.6878" y="21.7932" size="1.778" layer="27" display="off"/>
@@ -2410,28 +2410,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="150.7076" y="89.0938" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="151.241" y="89.6554" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C40" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="24.1554" y="41.91" smashed="yes" rot="R90">
+<element name="C41" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="24.1554" y="41.91" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="490-10992-1-ND" x="119.4054" y="125.73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="119.4054" y="125.73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L" x="119.4054" y="125.73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.1554" y="40.91" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="26.1554" y="40.91" size="1.016" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C39" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="32.2834" y="65.024" smashed="yes">
+<element name="C40" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="32.2834" y="65.024" smashed="yes">
 <attribute name="DIGIKEY" value="490-10992-1-ND" x="119.9134" y="-30.226" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="32.2834" y="65.024" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L" x="119.9134" y="-30.226" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.2834" y="65.6176" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="31.2834" y="63.024" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C35" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="38.735" y="12.7" smashed="yes" rot="R90">
+<element name="C36" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="38.735" y="12.7" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="490-10992-1-ND" x="38.735" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="38.735" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L" x="38.735" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="40.3004" y="11.5476" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="40.735" y="11.7" size="1.016" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C36" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="39.3954" y="22.733" smashed="yes">
+<element name="C37" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF" x="39.3954" y="22.733" smashed="yes">
 <attribute name="DIGIKEY" value="490-10992-1-ND" x="39.3954" y="22.733" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="39.3954" y="22.733" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L" x="39.3954" y="22.733" size="1.778" layer="27" display="off"/>
@@ -2445,14 +2445,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.5836" y="7.0706" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.5582" y="4.3754" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C34" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="2.2uF" x="63.119" y="23.6728" smashed="yes" rot="R90">
+<element name="C35" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="2.2uF" x="63.119" y="23.6728" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="490-12738-1-ND" x="162.179" y="69.3928" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="162.179" y="69.3928" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM188R61E225MA12D" x="162.179" y="69.3928" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62.5254" y="23.0792" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="65.119" y="22.6728" size="1.016" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C30" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.82uF" x="66.294" y="23.6474" smashed="yes">
+<element name="C31" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.82uF" x="66.294" y="23.6474" smashed="yes">
 <attribute name="DIGIKEY" value="399-3117-1-ND" x="114.554" y="-75.4126" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="KEMET" x="114.554" y="-75.4126" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C0603C824K8PACTU" x="114.554" y="-75.4126" size="1.778" layer="27" display="off"/>
@@ -2747,7 +2747,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="23.1902" y="62.8396" size="1" layer="37"/>
 <attribute name="VALUE" x="22.9362" y="64.3636" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C50" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF" x="17.7292" y="12.0142" smashed="yes">
+<element name="C28" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF" x="17.7292" y="12.0142" smashed="yes">
 <attribute name="NAME" x="16.7292" y="13.0142" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.7292" y="10.0142" size="1.016" layer="27" font="vector"/>
 </element>
@@ -2948,7 +2948,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="154.2448" y="71.5104" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="154.321" y="68.8152" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C29" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF" x="150.4696" y="74.3712" smashed="yes">
+<element name="C30" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF" x="150.4696" y="74.3712" smashed="yes">
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V X7R 0402" x="151.7396" y="97.2312" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY" value="490-10777-1-ND" x="151.7396" y="97.2312" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata" x="151.7396" y="97.2312" size="1.778" layer="27" display="off"/>
@@ -2956,14 +2956,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="149.5458" y="75.0156" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="149.4696" y="72.3712" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="C45" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" package="C1210" package3d_urn="urn:adsk.eagle:package:8118591/1" value="100uF" x="120.2182" y="67.6148" smashed="yes" rot="R180">
+<element name="C46" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" package="C1210" package3d_urn="urn:adsk.eagle:package:8118591/1" value="100uF" x="120.2182" y="67.6148" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="490-9969-1-ND" x="130.3782" y="52.3748" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="130.3782" y="52.3748" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM32ER61A107ME20L" x="130.3782" y="52.3748" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="121.4468" y="69.231" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="121.2182" y="69.6148" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C46" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" package="C1210" package3d_urn="urn:adsk.eagle:package:8118591/1" value="220uF" x="150.3426" y="70.8406" smashed="yes">
+<element name="C47" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" package="C1210" package3d_urn="urn:adsk.eagle:package:8118591/1" value="220uF" x="150.3426" y="70.8406" smashed="yes">
 <attribute name="DIGIKEY" value="490-16308-1-ND" x="128.7526" y="73.3806" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="128.7526" y="73.3806" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM32ER60J227ME05L" x="128.7526" y="73.3806" size="1.778" layer="27" display="off"/>
@@ -3073,7 +3073,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="112.8268" y="59.055" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="112.8268" y="56.515" size="1.016" layer="27" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="C44" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="14.3002" y="16.0274" smashed="yes" rot="R180">
+<element name="C45" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF" x="14.3002" y="16.0274" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="490-12538-1-ND" x="14.3002" y="16.0274" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="14.3002" y="16.0274" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM188R60J106KE47D" x="14.3002" y="16.0274" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3141,20 +3141,20 @@ design rules under a new name.</description>
 <contactref element="C16" pad="1"/>
 <contactref element="C17" pad="1"/>
 <contactref element="C22" pad="1"/>
-<contactref element="C41" pad="1"/>
+<contactref element="C42" pad="1"/>
 <contactref element="U11" pad="4"/>
 <contactref element="R26" pad="1"/>
 <contactref element="JP1" pad="GND"/>
 <contactref element="U8" pad="4"/>
-<contactref element="C30" pad="2"/>
-<contactref element="C34" pad="2"/>
+<contactref element="C31" pad="2"/>
+<contactref element="C35" pad="2"/>
 <contactref element="R33" pad="2"/>
 <contactref element="B1" pad="-"/>
-<contactref element="C31" pad="2"/>
+<contactref element="C32" pad="2"/>
 <contactref element="U1" pad="GND"/>
 <contactref element="C6" pad="2"/>
 <contactref element="U1" pad="3"/>
-<contactref element="C40" pad="2"/>
+<contactref element="C41" pad="2"/>
 <contactref element="J1" pad="B"/>
 <contactref element="J1" pad="6"/>
 <contactref element="J1" pad="MOUNT0"/>
@@ -3168,19 +3168,19 @@ design rules under a new name.</description>
 <contactref element="U3" pad="13"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="C28" pad="2"/>
+<contactref element="C29" pad="2"/>
 <contactref element="C18" pad="2"/>
 <contactref element="J7" pad="5"/>
-<contactref element="C32" pad="2"/>
+<contactref element="C33" pad="2"/>
 <contactref element="C27" pad="2"/>
 <contactref element="C26" pad="2"/>
 <contactref element="C24" pad="2"/>
-<contactref element="C39" pad="2"/>
+<contactref element="C40" pad="2"/>
 <contactref element="U9" pad="B7"/>
 <contactref element="U9" pad="GND"/>
 <contactref element="U9" pad="F23"/>
 <contactref element="C25" pad="2"/>
-<contactref element="C33" pad="2"/>
+<contactref element="C34" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="U9" pad="AD2"/>
 <contactref element="C21" pad="2"/>
@@ -3190,15 +3190,15 @@ design rules under a new name.</description>
 <contactref element="R37" pad="1"/>
 <contactref element="C23" pad="1"/>
 <contactref element="R13" pad="1"/>
-<contactref element="C36" pad="2"/>
-<contactref element="C35" pad="2"/>
-<contactref element="C50" pad="2"/>
-<contactref element="R32" pad="1"/>
-<contactref element="C42" pad="2"/>
-<contactref element="C43" pad="2"/>
-<contactref element="U5" pad="2"/>
 <contactref element="C37" pad="2"/>
+<contactref element="C36" pad="2"/>
+<contactref element="C28" pad="2"/>
+<contactref element="R32" pad="1"/>
+<contactref element="C43" pad="2"/>
+<contactref element="C44" pad="2"/>
+<contactref element="U5" pad="2"/>
 <contactref element="C38" pad="2"/>
+<contactref element="C39" pad="2"/>
 <contactref element="C19" pad="2"/>
 <polygon width="0.1524" layer="1" isolate="0.1524">
 <vertex x="-5.08" y="106.68"/>
@@ -3263,11 +3263,11 @@ design rules under a new name.</description>
 <contactref element="Q1" pad="2"/>
 <contactref element="Q2" pad="2"/>
 <contactref element="U12" pad="9"/>
-<contactref element="C45" pad="2"/>
+<contactref element="C46" pad="2"/>
 <contactref element="C13" pad="2"/>
 <contactref element="C20" pad="2"/>
-<contactref element="C29" pad="2"/>
-<contactref element="C46" pad="2"/>
+<contactref element="C30" pad="2"/>
+<contactref element="C47" pad="2"/>
 <contactref element="U13" pad="6"/>
 <contactref element="J8" pad="GND1"/>
 <contactref element="J8" pad="GND2"/>
@@ -3277,7 +3277,7 @@ design rules under a new name.</description>
 <contactref element="X4" pad="2"/>
 <contactref element="X4" pad="4"/>
 <contactref element="C2" pad="1"/>
-<contactref element="C44" pad="2"/>
+<contactref element="C45" pad="2"/>
 <contactref element="Q3" pad="2"/>
 <contactref element="R31" pad="1"/>
 <contactref element="U21" pad="3"/>
@@ -3744,7 +3744,7 @@ design rules under a new name.</description>
 <signal name="GPS_VCC">
 <contactref element="C17" pad="2"/>
 <contactref element="C22" pad="2"/>
-<contactref element="C41" pad="2"/>
+<contactref element="C42" pad="2"/>
 <contactref element="U11" pad="1"/>
 <contactref element="U11" pad="2"/>
 <contactref element="U7" pad="8"/>
@@ -3818,11 +3818,11 @@ design rules under a new name.</description>
 <contactref element="U10" pad="6"/>
 <contactref element="J7" pad="1"/>
 <contactref element="D2" pad="1"/>
-<contactref element="C32" pad="1"/>
+<contactref element="C33" pad="1"/>
 <contactref element="C27" pad="1"/>
 <contactref element="C26" pad="1"/>
 <contactref element="C24" pad="1"/>
-<contactref element="C39" pad="1"/>
+<contactref element="C40" pad="1"/>
 <contactref element="U9" pad="Y2"/>
 <contactref element="U9" pad="A22"/>
 <contactref element="U9" pad="AD14"/>
@@ -3830,7 +3830,7 @@ design rules under a new name.</description>
 <contactref element="U9" pad="B1"/>
 <contactref element="U9" pad="W1"/>
 <contactref element="TP15" pad="TP"/>
-<contactref element="C38" pad="1"/>
+<contactref element="C39" pad="1"/>
 <contactref element="U5" pad="5"/>
 <via x="42.6466" y="61.7474" extent="1-16" drill="0.35" diameter="0.1016"/>
 <wire x1="42.6466" y1="61.7474" x2="42.6974" y2="61.7982" width="0.2032" layer="1"/>
@@ -3851,7 +3851,7 @@ design rules under a new name.</description>
 <wire x1="42.3418" y1="62.0522" x2="39.491" y2="62.0522" width="0.508" layer="15"/>
 <contactref element="R25" pad="2"/>
 <contactref element="U13" pad="11"/>
-<contactref element="C31" pad="1"/>
+<contactref element="C32" pad="1"/>
 <contactref element="U1" pad="13"/>
 <contactref element="R35" pad="1"/>
 <contactref element="R14" pad="1"/>
@@ -3859,14 +3859,14 @@ design rules under a new name.</description>
 <contactref element="R11" pad="2"/>
 <contactref element="U6" pad="2"/>
 <contactref element="U6" pad="1"/>
-<contactref element="C35" pad="1"/>
+<contactref element="C36" pad="1"/>
 <contactref element="U5" pad="1"/>
 <contactref element="U5" pad="3"/>
-<contactref element="C37" pad="1"/>
+<contactref element="C38" pad="1"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="R36" pad="2"/>
-<contactref element="C43" pad="1"/>
 <contactref element="C44" pad="1"/>
+<contactref element="C45" pad="1"/>
 <contactref element="R15" pad="1"/>
 <wire x1="17.200678125" y1="18.634621875" x2="17.187609375" y2="18.629796875" width="0.2032" layer="1"/>
 <wire x1="17.187609375" y1="18.629796875" x2="17.1562" y2="18.6182" width="0.2032" layer="1"/>
@@ -4045,8 +4045,8 @@ design rules under a new name.</description>
 <contactref element="R38" pad="2"/>
 <contactref element="U6" pad="3"/>
 <contactref element="U6" pad="4"/>
-<contactref element="C36" pad="1"/>
-<contactref element="C42" pad="1"/>
+<contactref element="C37" pad="1"/>
+<contactref element="C43" pad="1"/>
 <contactref element="R5" pad="2"/>
 <contactref element="IC1" pad="5"/>
 <wire x1="38.6706" y1="19.7358" x2="38.6706" y2="22.7082" width="0.2032" layer="1"/>
@@ -4122,12 +4122,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$36">
 <contactref element="U8" pad="3"/>
-<contactref element="C30" pad="1"/>
+<contactref element="C31" pad="1"/>
 <wire x1="65.594" y1="23.6474" x2="65.594" y2="26.6594" width="0.2032" layer="1"/>
 <wire x1="65.594" y1="26.6594" x2="65.6792" y2="26.7446" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$39">
-<contactref element="C34" pad="1"/>
+<contactref element="C35" pad="1"/>
 <contactref element="U8" pad="2"/>
 <wire x1="65.0292" y1="26.7446" x2="64.7924" y2="26.5078" width="0.2032" layer="1"/>
 <wire x1="63.119" y1="23.26043125" x2="63.119" y2="22.9728" width="0.2032" layer="1"/>
@@ -4349,7 +4349,7 @@ design rules under a new name.</description>
 <wire x1="21.2852" y1="43.0276" x2="21.2852" y2="49.3014" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$55">
-<contactref element="C40" pad="1"/>
+<contactref element="C41" pad="1"/>
 <contactref element="J1" pad="4"/>
 <contactref element="U10" pad="1"/>
 <contactref element="U10" pad="2"/>
@@ -4458,7 +4458,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="VCC_LINUX_1V8">
 <contactref element="U3" pad="9"/>
-<contactref element="C28" pad="1"/>
+<contactref element="C29" pad="1"/>
 <wire x1="144.13136875" y1="84.229" x2="143.9302" y2="84.229" width="0.2032" layer="1"/>
 <wire x1="143.9302" y1="84.229" x2="141.5542" y2="81.853" width="0.2032" layer="1"/>
 <wire x1="144.3722" y1="84.7322" x2="144.3722" y2="84.46983125" width="0.2032" layer="1"/>
@@ -4632,7 +4632,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$32">
 <contactref element="U9" pad="B5"/>
-<contactref element="C33" pad="1"/>
+<contactref element="C34" pad="1"/>
 <contactref element="C21" pad="1"/>
 <contactref element="U9" pad="E24"/>
 <contactref element="L2" pad="1"/>
@@ -5023,7 +5023,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$29">
 <contactref element="R5" pad="1"/>
-<contactref element="C50" pad="1"/>
+<contactref element="C28" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="IC1" pad="7"/>
@@ -5054,8 +5054,8 @@ design rules under a new name.</description>
 <signal name="GSM_GATED">
 <contactref element="C13" pad="1"/>
 <contactref element="C20" pad="1"/>
-<contactref element="C29" pad="1"/>
-<contactref element="C46" pad="1"/>
+<contactref element="C30" pad="1"/>
+<contactref element="C47" pad="1"/>
 <contactref element="Q4" pad="3"/>
 <contactref element="U12" pad="51"/>
 <contactref element="U12" pad="53"/>
@@ -5639,7 +5639,7 @@ design rules under a new name.</description>
 <wire x1="122.0002" y1="49.704" x2="124.4188" y2="49.704" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="C45" pad="1"/>
+<contactref element="C46" pad="1"/>
 <contactref element="R29" pad="2"/>
 <contactref element="U12" pad="2"/>
 <wire x1="121.4428625" y1="67.437615625" x2="121.6182" y2="67.6148" width="0.2032" layer="1"/>
