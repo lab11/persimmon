@@ -1519,68 +1519,6 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 <rectangle x1="-0.4" y1="-0.625" x2="0.4" y2="0.625" layer="21"/>
 <text x="0" y="0.892" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="VLF3012A">
-<smd name="P$1" x="-1.38" y="0" dx="0.65" dy="1.2" layer="1"/>
-<smd name="P$2" x="1.38" y="0" dx="0.65" dy="1.2" layer="1"/>
-<wire x1="-1.4" y1="1.3" x2="-1.4" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.3" x2="1.4" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.3" x2="1.4" y2="1.3" width="0.127" layer="21"/>
-<wire x1="1.4" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="21"/>
-<text x="-0.01" y="1.78" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<text x="0.074" y="-2.77" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="XFL4015">
-<description>Coilcraft XFL4015 series inductor package</description>
-<smd name="1" x="-1.1811" y="0" dx="0.9652" dy="3.4036" layer="1"/>
-<smd name="2" x="1.1811" y="0" dx="0.9652" dy="3.4036" layer="1"/>
-<wire x1="-1.9939" y1="1.9939" x2="1.9939" y2="1.9939" width="0.127" layer="21"/>
-<wire x1="1.9939" y1="1.9939" x2="1.9939" y2="-1.9939" width="0.127" layer="21"/>
-<wire x1="1.9939" y1="-1.9939" x2="-1.9939" y2="-1.9939" width="0.127" layer="21"/>
-<wire x1="-1.9939" y1="-1.9939" x2="-1.9939" y2="1.9939" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
-<text x="0" y="2.54" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.016" layer="27" font="vector" ratio="12" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="IHL-1212BZ-11">
-<smd name="P$1" x="-1.35" y="0" dx="1.2" dy="1.5" layer="1"/>
-<smd name="P$2" x="1.35" y="0" dx="1.2" dy="1.5" layer="1"/>
-<wire x1="-1.9" y1="-1.5" x2="-1.9" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="1.5" x2="1.9" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.9" y1="1.5" x2="1.9" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.9" y1="-1.5" x2="-1.9" y2="-1.5" width="0.127" layer="21"/>
-<text x="-2.4" y="1.8" size="1.27" layer="25">&gt;NAME</text>
-</package>
-<package name="DFE322512C">
-<description>muRata (previously TOKO) DFE322512C series inductors</description>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
-<smd name="P$1" x="1.225" y="0" dx="2.5" dy="0.75" layer="1" rot="R90"/>
-<smd name="P$2" x="-1.225" y="0" dx="2.5" dy="0.75" layer="1" rot="R90"/>
-<text x="0" y="2.81" size="1.016" layer="25" font="vector" ratio="12" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.81" size="1.016" layer="27" font="vector" ratio="12" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="IHL-2525CZ">
-<smd name="P$1" x="-2.921" y="0" dx="2.413" dy="3.429" layer="1"/>
-<smd name="P$2" x="2.921" y="0" dx="2.413" dy="3.429" layer="1"/>
-<wire x1="-3.2385" y1="3.2385" x2="3.2385" y2="3.2385" width="0.127" layer="21"/>
-<wire x1="3.2385" y1="3.2385" x2="3.2385" y2="-3.2385" width="0.127" layer="21"/>
-<wire x1="3.2385" y1="-3.2385" x2="-3.2385" y2="-3.2385" width="0.127" layer="21"/>
-<wire x1="-3.2385" y1="-3.2385" x2="-3.2385" y2="3.2385" width="0.127" layer="21"/>
-<text x="-3.175" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="74437324220">
-<smd name="P$1" x="1.85" y="0" dx="1.5" dy="2.4" layer="1"/>
-<smd name="P$2" x="-1.85" y="0" dx="1.5" dy="2.4" layer="1"/>
-<wire x1="-2.03" y1="2.03" x2="2.03" y2="2.03" width="0.127" layer="21"/>
-<wire x1="2.03" y1="2.03" x2="2.03" y2="-2.03" width="0.127" layer="21"/>
-<wire x1="2.03" y1="-2.03" x2="-2.03" y2="-2.03" width="0.127" layer="21"/>
-<wire x1="-2.03" y1="-2.03" x2="-2.03" y2="2.03" width="0.127" layer="21"/>
-<text x="-2" y="2.5" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-2" y="-3.5" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-</package>
 <package name="0402_DIODE">
 <smd name="CATHODE" x="0.43306875" y="0" dx="0.535940625" dy="0.5461" layer="1"/>
 <smd name="ANODE" x="-0.43306875" y="0" dx="0.535940625" dy="0.5461" layer="1"/>
@@ -1641,16 +1579,6 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 <wire x1="-3.81" y1="1.778" x2="3.81" y2="1.778" width="0.1524" layer="94"/>
 <text x="0" y="2.54" size="1.778" layer="95" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="95" ratio="12" align="bottom-center">&gt;VALUE</text>
-</symbol>
-<symbol name="INDUCTOR">
-<pin name="1" x="0" y="7.62" visible="off" length="short" rot="R270"/>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
-<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
-<text x="-0.508" y="-2.54" size="1.778" layer="95" ratio="12" rot="R90">&gt;NAME</text>
-<text x="3.048" y="-2.54" size="1.778" layer="96" ratio="12" rot="R90">&gt;VALUE</text>
 </symbol>
 <symbol name="DIODE_ZENER">
 <pin name="ANODE" x="-5.08" y="0" visible="off" length="short"/>
@@ -1761,105 +1689,6 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="INDUCTOR" prefix="L" uservalue="yes">
-<description>A very specific inductor</description>
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0402" package="0402_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="0603_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="VLF3012A" package="VLF3012A">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="445-3225-1-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
-<attribute name="MPN" value="VLF3012AT-4R7MR74" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1210" package="1210_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="XFL4015" package="XFL4015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="IHL" package="IHL-1212BZ-11">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="541-1322-1-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
-<attribute name="MPN" value="IHLP1212BZER2R2M11" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DFE322512C" package="DFE322512C">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="IHL2525CZ" package="IHL-2525CZ">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="74437324220" package="74437324220">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="732-3340-1-ND" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -12655,23 +12484,11 @@ chip</description>
 <attribute name="MANUFACTURER" value="Lite-On Inc."/>
 <attribute name="MPN" value="LTST-C194TBKT"/>
 </part>
-<part name="L1" library="passives" deviceset="INDUCTOR" device="0402" value="5.6nH">
-<attribute name="DESCRIPTION" value="FIXED IND 5.6NH 1.77A 40 MOHM"/>
-<attribute name="DIGIKEY" value="490-11766-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MPN" value="LQW15AN5N6B80D"/>
-</part>
-<part name="L5" library="passives" deviceset="FERRITE_BEAD" device="0402" value="1kH">
-<attribute name="DESCRIPTION" value="FERRITE BEAD 1 KOHM 0402 1LN"/>
-<attribute name="DIGIKEY" value="490-4003-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MPN" value="BLM15HD102SN1D"/>
-</part>
-<part name="L6" library="passives" deviceset="FERRITE_BEAD" device="0402" value="1kH">
-<attribute name="DESCRIPTION" value="FERRITE BEAD 1 KOHM 0402 1LN"/>
-<attribute name="DIGIKEY" value="490-4003-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MPN" value="BLM15HD102SN1D"/>
+<part name="L1" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="5.6nH">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY" value="490-15723-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="LQW18AN5N6G8ZD"/>
 </part>
 <part name="R26" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
 <attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
@@ -12875,7 +12692,11 @@ chip</description>
 </part>
 <part name="SUPPLY5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6300*" device=""/>
-<part name="L3" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0201_L" package3d_urn="urn:adsk.eagle:package:2593725/1" value="2.2uH"/>
+<part name="L3" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="2.2uH">
+<attribute name="DIGIKEY" value="490-14478-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="LQM18PN2R2MGHD"/>
+</part>
 <part name="C42" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF">
 <attribute name="DIGIKEY" value="490-12538-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
@@ -13005,13 +12826,15 @@ chip</description>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MPN" value="GCJ188R71H473KA12D"/>
 </part>
-<part name="L2" library="passives" deviceset="INDUCTOR" device="0402" value="15nH">
-<attribute name="DIGIKEY" value="587-1521-1-ND"/>
-<attribute name="MPN" value="HK100515NJ-T "/>
+<part name="L2" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="15nH">
+<attribute name="DIGIKEY" value="490-15648-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="LQW18AN15NG8ZD"/>
 </part>
-<part name="L4" library="passives" deviceset="INDUCTOR" device="0603" value="10uH">
-<attribute name="DIGIKEY" value="490-4025-1-ND"/>
-<attribute name="MPN" value="LQM18FN100M00D "/>
+<part name="L4" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="10uH">
+<attribute name="DIGIKEY" value="587-1720-1-ND"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MPN" value="CBMF1608T100K"/>
 </part>
 <part name="X5" library="crystals" deviceset="ABS05-32.768KHZ" device="-9-T" value="32.768kHz"/>
 <part name="C3" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="12pF">
@@ -13039,7 +12862,10 @@ chip</description>
 <attribute name="MPN" value="ZRB18AR6YA475KE05L"/>
 </part>
 <part name="GND4" library="umich" deviceset="GND" device=""/>
-<part name="J1" library="connector" deviceset="CON_MICRO_SD" device="DM3AT-SF-PEJM5"/>
+<part name="J1" library="connector" deviceset="CON_MICRO_SD" device="DM3AT-SF-PEJM5">
+<attribute name="MANUFACTOR" value="Hirose Electric Co Ltd"/>
+<attribute name="MPN" value="DM3AT-SF-PEJM5"/>
+</part>
 <part name="P+10" library="regulators" deviceset="+3V3" device=""/>
 <part name="U10" library="chips" deviceset="SIP32510" device=""/>
 <part name="R27" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
@@ -13299,6 +13125,16 @@ chip</description>
 <part name="P+1" library="regulators" deviceset="+3V3" device="" value="+5V"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="L5" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="1k">
+<attribute name="DIGIKEY" value="490-1015-1-ND"/>
+<attribute name="MANUFACTURER" value="BLM18AG102SN1D"/>
+<attribute name="MPN" value="Murata Electronics"/>
+</part>
+<part name="L6" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="1k">
+<attribute name="DIGIKEY" value="490-1015-1-ND"/>
+<attribute name="MANUFACTURER" value="BLM18AG102SN1D"/>
+<attribute name="MPN" value="Murata Electronics"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13343,20 +13179,10 @@ chip</description>
 <attribute name="NAME" x="-57.785" y="73.152" size="1.778" layer="95" ratio="12" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-62.865" y="73.152" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="L1" gate="G$1" x="-144.78" y="63.5" smashed="yes" rot="MR180">
+<instance part="L1" gate="L$1" x="-144.78" y="63.5" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" x="-144.78" y="63.5" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="NAME" x="-145.288" y="66.04" size="1.778" layer="95" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="-141.732" y="66.04" size="1.778" layer="96" ratio="12" rot="MR270"/>
-</instance>
-<instance part="L5" gate="G$1" x="8.89" y="62.23" smashed="yes">
-<attribute name="DIGIKEY" x="8.89" y="62.23" size="1.27" layer="96" display="off"/>
-<attribute name="NAME" x="8.89" y="64.77" size="1.778" layer="95" ratio="12" align="bottom-center"/>
-<attribute name="VALUE" x="8.89" y="59.69" size="1.778" layer="95" ratio="12" align="bottom-center"/>
-</instance>
-<instance part="L6" gate="G$1" x="8.89" y="54.61" smashed="yes">
-<attribute name="DIGIKEY" x="8.89" y="54.61" size="1.27" layer="96" display="off"/>
-<attribute name="NAME" x="8.89" y="57.15" size="1.778" layer="95" ratio="12" align="bottom-center"/>
-<attribute name="VALUE" x="8.89" y="52.07" size="1.778" layer="95" ratio="12" align="bottom-center"/>
 </instance>
 <instance part="R26" gate="G$1" x="-10.16" y="101.6" smashed="yes">
 <attribute name="DIGIKEY" x="-10.16" y="101.6" size="1.27" layer="96" font="vector" display="off"/>
@@ -13422,6 +13248,14 @@ chip</description>
 <attribute name="REV" x="50.83175" y="-31.424878125" size="2.54" layer="94" font="vector" align="bottom-center"/>
 <attribute name="TITLE" x="-41.91" y="-30.9372" size="3.175" layer="94" font="vector"/>
 </instance>
+<instance part="L5" gate="L$1" x="12.7" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="62.23" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="17.78" y="67.31" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="L6" gate="L$1" x="12.7" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="52.07" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="17.78" y="57.15" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13429,7 +13263,7 @@ chip</description>
 <net name="ANT" class="0">
 <segment>
 <pinref part="A1" gate="ANT" pin="1"/>
-<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="L1" gate="L$1" pin="2"/>
 <wire x1="-144.78" y1="71.12" x2="-144.78" y2="73.66" width="0.1524" layer="91"/>
 <label x="-143.51" y="72.39" size="1.778" layer="95"/>
 </segment>
@@ -13521,16 +13355,16 @@ chip</description>
 </net>
 <net name="GPS_RXD" class="0">
 <segment>
-<pinref part="L6" gate="G$1" pin="P$2"/>
-<wire x1="13.97" y1="54.61" x2="15.24" y2="54.61" width="0.1524" layer="91"/>
-<label x="15.24" y="54.61" size="1.016" layer="95" xref="yes"/>
+<pinref part="L6" gate="L$1" pin="2"/>
+<wire x1="20.32" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<label x="25.4" y="53.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPS_TXD" class="0">
 <segment>
-<pinref part="L5" gate="G$1" pin="P$2"/>
-<wire x1="13.97" y1="62.23" x2="15.24" y2="62.23" width="0.1524" layer="91"/>
-<label x="15.24" y="62.23" size="1.016" layer="95" xref="yes"/>
+<pinref part="L5" gate="L$1" pin="2"/>
+<wire x1="20.32" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<label x="27.94" y="63.5" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPS_VCC" class="0">
@@ -13569,7 +13403,7 @@ chip</description>
 </net>
 <net name="LNA_IN" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="L1" gate="L$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="AI"/>
 <wire x1="-144.78" y1="54.61" x2="-144.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="54.61" x2="-144.78" y2="54.61" width="0.1524" layer="91"/>
@@ -13595,22 +13429,6 @@ chip</description>
 <pinref part="U7" gate="MAX-M8" pin="TIMEPULSE"/>
 <wire x1="-59.69" y1="54.61" x2="-59.69" y2="70.612" width="0.1524" layer="91"/>
 <wire x1="-41.91" y1="54.61" x2="-59.69" y2="54.61" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="L5" gate="G$1" pin="P$1"/>
-<pinref part="U7" gate="MAX-M8" pin="TXD"/>
-<wire x1="1.27" y1="62.23" x2="1.27" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="3.81" y1="62.23" x2="1.27" y2="62.23" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="L6" gate="G$1" pin="P$1"/>
-<pinref part="U7" gate="MAX-M8" pin="RXD"/>
-<wire x1="1.27" y1="54.61" x2="1.27" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="3.81" y1="54.61" x2="1.27" y2="54.61" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_RF" class="0">
@@ -13640,6 +13458,22 @@ chip</description>
 <wire x1="15.24" y1="88.9" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U11" gate="G$1" pin="VSUPP"/>
 <wire x1="15.24" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U7" gate="MAX-M8" pin="TXD"/>
+<pinref part="L5" gate="L$1" pin="1"/>
+<wire x1="1.27" y1="59.69" x2="1.27" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="63.5" x2="5.08" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="L6" gate="L$1" pin="1"/>
+<pinref part="U7" gate="MAX-M8" pin="RXD"/>
+<wire x1="5.08" y1="53.34" x2="1.27" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="53.34" x2="1.27" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -14056,6 +13890,8 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="J1" gate="G$1" x="-66.04" y="81.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-53.34" y="93.98" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-53.34" y="58.42" size="1.27" layer="96" rot="MR0"/>
+<attribute name="MPN" x="-66.04" y="81.28" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTOR" x="-66.04" y="81.28" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="P+10" gate="P1" x="-175.26" y="91.44" smashed="yes">
 <attribute name="VALUE" x="-177.8" y="86.36" size="1.778" layer="96" rot="R90"/>
@@ -14564,13 +14400,13 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="NAME" x="621.03" y="110.49" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="623.57" y="110.49" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="L2" gate="G$1" x="624.84" y="129.54" smashed="yes" rot="R90">
+<instance part="L2" gate="L$1" x="624.84" y="129.54" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" x="624.84" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="624.84" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="627.38" y="129.032" size="1.778" layer="95" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="627.38" y="132.588" size="1.778" layer="96" ratio="12" rot="R180"/>
 </instance>
-<instance part="L4" gate="G$1" x="642.62" y="129.54" smashed="yes" rot="R90">
+<instance part="L4" gate="L$1" x="642.62" y="129.54" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" x="642.62" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="642.62" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="645.16" y="129.032" size="1.778" layer="95" ratio="12" rot="R180"/>
@@ -14874,7 +14710,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 <wire x1="655.32" y1="111.76" x2="652.78" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="652.78" y1="111.76" x2="652.78" y2="116.84" width="0.1524" layer="91"/>
 <junction x="652.78" y="116.84"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L2" gate="L$1" pin="1"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -14927,14 +14763,14 @@ If we don't have VCC the particle won't be on anyways.</text>
 <segment>
 <pinref part="U9" gate="G$1" pin="DCC"/>
 <wire x1="650.24" y1="129.54" x2="655.32" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="L4" gate="L$1" pin="2"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L2" gate="L$1" pin="2"/>
 <wire x1="635" y1="129.54" x2="632.46" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="L4" gate="G$1" pin="1"/>
+<pinref part="L4" gate="L$1" pin="1"/>
 </segment>
 </net>
 <net name="XL3" class="0">
