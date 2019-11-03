@@ -12674,16 +12674,14 @@ chip</description>
 <attribute name="MPN" value="BLM15HD102SN1D"/>
 </part>
 <part name="R26" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="541-100KLCT-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale"/>
-<attribute name="MPN" value="CRCW0402100KFKED"/>
+<attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
 </part>
 <part name="R10" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1k">
-<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="RMCF0402FT1K00CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics"/>
-<attribute name="MPN" value="RMCF0402FT1K00"/>
+<attribute name="DIGIKEY" value="311-1.0KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
 </part>
 <part name="U$1" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$27" library="microbuilder" deviceset="GND" device=""/>
@@ -12713,16 +12711,14 @@ chip</description>
 </part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R34" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="825k">
-<attribute name="DESCRIPTION" value="RES SMD 825K OHM 1% 1/10W 0402"/>
-<attribute name="DIGIKEY" value="P825KLCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-2RKF8253X"/>
+<attribute name="DIGIKEY" value="311-825KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07825KL"/>
 </part>
 <part name="R33" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="499k">
-<attribute name="DESCRIPTION" value="RES SMD 499K OHM 1% 1/10W 0402"/>
-<attribute name="DIGIKEY" value="P499KLCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MPN" value="ERJ-2RKF4993X"/>
+<attribute name="DIGIKEY" value="311-499KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07499KL"/>
 </part>
 <part name="U8" library="chips" deviceset="MAX67XX" device="MAX67XX" technology="MAX6749"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12753,22 +12749,19 @@ chip</description>
 </part>
 <part name="X1" library="crystals" deviceset="ABS07-32.768KHZ" device="-7-T"/>
 <part name="R14" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1% 1/16W 0402 "/>
-<attribute name="DIGIKEY" value="RMCF0402FT10K0CT-ND "/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc. "/>
-<attribute name="MPN" value="RMCF0402FT10K0 "/>
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
 </part>
 <part name="R15" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1% 1/16W 0402 "/>
-<attribute name="DIGIKEY" value="RMCF0402FT10K0CT-ND "/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc. "/>
-<attribute name="MPN" value="RMCF0402FT10K0 "/>
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
 </part>
 <part name="R16" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1% 1/16W 0402 "/>
-<attribute name="DIGIKEY" value="RMCF0402FT10K0CT-ND "/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc. "/>
-<attribute name="MPN" value="RMCF0402FT10K0 "/>
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
 </part>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="4UCON-15767">
 <attribute name="DESCRIPTION" value="CONN HEADER PH TOP 2POS 2MM SMD"/>
@@ -12777,16 +12770,15 @@ chip</description>
 <attribute name="MPN" value="B2B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="R17" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1% 1/16W 0402 "/>
-<attribute name="DIGIKEY" value="RMCF0402FT10K0CT-ND "/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc. "/>
-<attribute name="MPN" value="RMCF0402FT10K0 "/>
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
 </part>
 <part name="R35" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1M">
-<attribute name="DESCRIPTION" value="RES 1M OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="RMCF0402FT1M00CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
-<attribute name="MPN" value="RMCF0402FT1M00"/>
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY" value="311-1.00MHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND9" library="umich" deviceset="GND" device=""/>
 <part name="U3" library="chips" deviceset="FTDI234XD" device=""/>
@@ -12802,18 +12794,26 @@ chip</description>
 <attribute name="MPN" value="CC0603JRNPO9BN470"/>
 </part>
 <part name="R1" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="27">
-<attribute name="DIGIKEY" value="1276-3907-1-ND"/>
+<attribute name="DIGIKEY" value="311-27GRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0727RL"/>
 </part>
 <part name="R2" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="27">
-<attribute name="DIGIKEY" value="1276-3907-1-ND"/>
+<attribute name="DIGIKEY" value="311-27GRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0727RL"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100">
-<attribute name="DIGIKEY" value="1276-3429-1-ND"/>
+<attribute name="DIGIKEY" value="311-100HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R4" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100">
-<attribute name="DIGIKEY" value="1276-3429-1-ND"/>
+<attribute name="DIGIKEY" value="311-100HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="U$12" library="signpost" deviceset="VCC_LINUX_1V8" device="" value="1V8"/>
 <part name="C28" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF">
@@ -12836,11 +12836,27 @@ chip</description>
 <attribute name="MOUSER" value=""/>
 <attribute name="NEWARK" value=""/>
 </part>
-<part name="R11" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1k"/>
-<part name="R13" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="2k"/>
+<part name="R11" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1k">
+<attribute name="DIGIKEY" value="311-1.0KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
+</part>
+<part name="R13" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="2k">
+<attribute name="DIGIKEY" value="311-2.00KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-072KL"/>
+</part>
 <part name="SUPPLY1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R38" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10M"/>
-<part name="R37" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="2.2M"/>
+<part name="R38" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10M">
+<attribute name="DIGIKEY" value="311-10MGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+</part>
+<part name="R37" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="2.2M">
+<attribute name="DIGIKEY" value="311-2.2MGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-072M2L"/>
+</part>
 <part name="C23" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF"/>
 <part name="SUPPLY2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12865,11 +12881,23 @@ chip</description>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 </part>
-<part name="R5" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100"/>
+<part name="R5" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100">
+<attribute name="DIGIKEY" value="311-100HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
+</part>
 <part name="U$5" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R36" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1.3M"/>
-<part name="R32" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="200k"/>
+<part name="R36" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1.3M">
+<attribute name="DIGIKEY" value="YAG3326CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071M3L"/>
+</part>
+<part name="R32" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="200k">
+<attribute name="DIGIKEY" value="311-200KGRTR-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-07200KL"/>
+</part>
 <part name="C43" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF">
 <attribute name="DIGIKEY" value="490-12538-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
@@ -12907,9 +12935,21 @@ chip</description>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D2" library="leds" deviceset="SML-LX0404SIUPGUSB" device=""/>
 <part name="P+11" library="regulators" deviceset="+3V3" device=""/>
-<part name="R7" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470"/>
-<part name="R8" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470"/>
-<part name="R9" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470"/>
+<part name="R7" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07470RL"/>
+</part>
+<part name="R8" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07470RL"/>
+</part>
+<part name="R9" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470">
+<attribute name="DIGIKEY" value="311-470HRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07470RL"/>
+</part>
 <part name="U9" library="chips" deviceset="NRF52840" device=""/>
 <part name="C32" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF">
 <attribute name="DIGIKEY" value=""/>
@@ -13002,11 +13042,31 @@ chip</description>
 <part name="J1" library="connector" deviceset="CON_MICRO_SD" device="DM3AT-SF-PEJM5"/>
 <part name="P+10" library="regulators" deviceset="+3V3" device=""/>
 <part name="U10" library="chips" deviceset="SIP32510" device=""/>
-<part name="R27" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k"/>
-<part name="R28" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k"/>
-<part name="R18" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
-<part name="R19" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
-<part name="R20" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
+<part name="R27" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
+<attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
+</part>
+<part name="R28" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
+<attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
+</part>
+<part name="R18" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
+<part name="R19" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
+<part name="R20" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
 <part name="P+3" library="regulators" deviceset="+3V3" device=""/>
 <part name="3V3" library="regulators" deviceset="+3V3" device="" value="3V3"/>
 <part name="P+4" library="regulators" deviceset="+3V3" device=""/>
@@ -13056,10 +13116,26 @@ chip</description>
 <part name="U20" library="max4734_mux" deviceset="MAX4734EUB+" device=""/>
 <part name="U21" library="max4734_mux" deviceset="MAX4734EUB+" device=""/>
 <part name="U22" library="max4734_mux" deviceset="MAX4734EUB+" device=""/>
-<part name="R21" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
-<part name="R22" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
-<part name="R23" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
-<part name="R24" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k"/>
+<part name="R21" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
+<part name="R22" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
+<part name="R23" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
+<part name="R24" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
+</part>
 <part name="FRAME8" library="lab11-frames" deviceset="LETTER_L_BLANK" device="">
 <attribute name="AUTHOR" value="Neha Godbole"/>
 <attribute name="DATE" value="4/22/19"/>
@@ -13160,28 +13236,24 @@ chip</description>
 </part>
 <part name="Q4" library="fets" deviceset="SI223DDS" device=""/>
 <part name="R25" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="311-10KJRCT-ND"/>
+<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-0710KL"/>
+<attribute name="MPN" value="RC0603JR-0710KL"/>
 </part>
 <part name="R29" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="311-100KLRCT-ND"/>
+<attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100KL"/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
 </part>
 <part name="R30" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="311-100KLRCT-ND"/>
+<attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100KL"/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
 </part>
 <part name="R6" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100">
-<attribute name="DESCRIPTION" value="RES SMD 100 OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="311-100LRCT-ND"/>
+<attribute name="DIGIKEY" value="311-100HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="U12" library="signpost" deviceset="UBLOX_SARA_G350" device=""/>
 <part name="U13" library="chips" deviceset="TXB0104RUT" device=""/>
@@ -13208,16 +13280,14 @@ chip</description>
 <attribute name="MPN" value="2N7002LT1G"/>
 </part>
 <part name="R12" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1k">
-<attribute name="DESCRIPTION" value="RES SMD 1K OHM 5% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="311-1.0KJRCT-ND"/>
+<attribute name="DIGIKEY" value="311-1.0KGRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-071KL"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
 </part>
 <part name="R31" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1% 1/16W 0402"/>
-<attribute name="DIGIKEY" value="311-100KLRCT-ND"/>
+<attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100KL"/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
 </part>
 <part name="GND26" library="umich" deviceset="GND" device=""/>
 <part name="GND29" library="umich" deviceset="GND" device=""/>
@@ -13602,13 +13672,11 @@ If we don't have VCC the particle won't be on anyways.</text>
 </instance>
 <instance part="R34" gate="G$1" x="86.36" y="53.34" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="86.36" y="53.34" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="86.36" y="53.34" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
 <attribute name="NAME" x="87.8586" y="57.15" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="83.058" y="57.15" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R33" gate="G$1" x="86.36" y="30.48" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="86.36" y="30.48" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="86.36" y="30.48" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
 <attribute name="NAME" x="87.8586" y="34.29" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="83.058" y="34.29" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -13669,19 +13737,16 @@ If we don't have VCC the particle won't be on anyways.</text>
 </instance>
 <instance part="R14" gate="G$1" x="147.32" y="-22.86" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="147.32" y="-22.86" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="147.32" y="-22.86" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
 <attribute name="NAME" x="148.8186" y="-19.05" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="144.018" y="-19.05" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R15" gate="G$1" x="45.72" y="-40.64" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="45.72" y="-40.64" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="45.72" y="-40.64" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
 <attribute name="NAME" x="47.2186" y="-36.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="42.418" y="-36.83" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R16" gate="G$1" x="111.76" y="53.34" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="111.76" y="53.34" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="111.76" y="53.34" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
 <attribute name="NAME" x="113.2586" y="57.15" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="108.458" y="57.15" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -13695,7 +13760,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 </instance>
 <instance part="R17" gate="G$1" x="38.1" y="-40.64" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="38.1" y="-40.64" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="38.1" y="-40.64" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
 <attribute name="NAME" x="39.5986" y="-36.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="34.798" y="-36.83" size="1.778" layer="96" rot="R270"/>
 </instance>
