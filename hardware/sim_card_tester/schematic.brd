@@ -2271,17 +2271,22 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="52.9524" y="7.9154" size="1.016" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C23" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF" x="33.9344" y="19.7104" smashed="yes">
+<attribute name="DIGIKEY" value="490-6328-1-ND" x="33.9344" y="19.7104" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="33.9344" y="19.7104" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM155R71C104KA88J " x="33.9344" y="19.7104" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.7312" y="20.4564" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="32.9344" y="17.7104" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="C24" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF" x="31.8008" y="62.1538" smashed="yes">
 <attribute name="DIGIKEY" value="490-6328-1-ND" x="110.5408" y="-28.0162" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="31.8008" y="62.1538" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM155R71C104KA88J " x="110.5408" y="-28.0162" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="30.9786" y="62.7728" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="30.8008" y="60.1538" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="C25" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF" x="34.29" y="71.501" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="490-6328-1-ND" x="124.46" y="154.051" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="34.29" y="71.501" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM155R71C104KA88J " x="124.46" y="154.051" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.7472" y="70.501" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="36.29" y="70.501" size="1.016" layer="27" font="vector" rot="R90"/>
@@ -2295,13 +2300,15 @@ design rules under a new name.</description>
 </element>
 <element name="C26" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF" x="44.8564" y="59.8678" smashed="yes">
 <attribute name="DIGIKEY" value="490-6328-1-ND" x="60.0964" y="-35.3822" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="44.8564" y="59.8678" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM155R71C104KA88J " x="60.0964" y="-35.3822" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="43.9834" y="60.5376" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="44.847" y="58.5536" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="C27" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF" x="41.9354" y="58.9026" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="" x="-53.3146" y="39.8526" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-53.3146" y="39.8526" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="490-6328-1-ND" x="-53.3146" y="39.8526" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="41.9354" y="58.9026" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM155R71C104KA88J " x="-53.3146" y="39.8526" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="42.529" y="59.8772" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="40.4688" y="60.1312" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
@@ -2369,14 +2376,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="151.2156" y="91.5858" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C32" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF" x="28.2702" y="64.9478" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="-40.3098" y="160.1978" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="-40.3098" y="160.1978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="399-3118-1-ND" x="-40.3098" y="160.1978" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="KEMET" x="28.2702" y="64.9478" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0603C105K8PACTU" x="-40.3098" y="160.1978" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="29.194" y="66.564" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="29.2702" y="66.9478" size="1.016" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C33" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF" x="38.2524" y="71.7042" smashed="yes">
-<attribute name="DIGIKEY" value="490-7195-1-ND " x="110.6424" y="-23.5458" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM155R70G105KA12D " x="110.6424" y="-23.5458" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="399-3118-1-ND" x="110.6424" y="-23.5458" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="KEMET" x="38.2524" y="71.7042" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0603C105K8PACTU" x="110.6424" y="-23.5458" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.2524" y="72.7042" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="37.2524" y="69.7042" size="1.016" layer="27" font="vector"/>
 </element>
@@ -2430,9 +2439,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="38.3954" y="20.733" size="1.016" layer="27" font="vector"/>
 </element>
 <element name="C22" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF" x="46.5582" y="6.3754" smashed="yes">
-<attribute name="DIGIKEY" value="490-5405-1-ND" x="89.7382" y="-92.6846" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="490-6328-1-ND" x="89.7382" y="-92.6846" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="89.7382" y="-92.6846" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM033R61A104ME15D" x="89.7382" y="-92.6846" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM155R71C104KA88J " x="89.7382" y="-92.6846" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.5836" y="7.0706" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.5582" y="4.3754" size="1.016" layer="27" font="vector"/>
 </element>
@@ -2738,7 +2747,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="23.1902" y="62.8396" size="1" layer="37"/>
 <attribute name="VALUE" x="22.9362" y="64.3636" size="1.016" layer="27" font="vector"/>
 </element>
-<element name="U$5" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF" x="17.7292" y="12.0142" smashed="yes">
+<element name="C50" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" package="RESC0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF" x="17.7292" y="12.0142" smashed="yes">
 <attribute name="NAME" x="16.7292" y="13.0142" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.7292" y="10.0142" size="1.016" layer="27" font="vector"/>
 </element>
@@ -3183,7 +3192,7 @@ design rules under a new name.</description>
 <contactref element="R13" pad="1"/>
 <contactref element="C36" pad="2"/>
 <contactref element="C35" pad="2"/>
-<contactref element="U$5" pad="2"/>
+<contactref element="C50" pad="2"/>
 <contactref element="R32" pad="1"/>
 <contactref element="C42" pad="2"/>
 <contactref element="C43" pad="2"/>
@@ -5014,7 +5023,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$29">
 <contactref element="R5" pad="1"/>
-<contactref element="U$5" pad="1"/>
+<contactref element="C50" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="IC1" pad="6"/>
 <contactref element="IC1" pad="7"/>
