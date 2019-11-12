@@ -1745,31 +1745,12 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3338,13 +3319,6 @@ Rounded side is up.</description>
 </package>
 </packages>
 <symbols>
-<symbol name="VCC_LINUX_1V8">
-<pin name="VCC_LINUX_1V8" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<wire x1="0" y1="2.54" x2="-1.016" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.016" y2="1.524" width="0.254" layer="94"/>
-<text x="-2.54" y="4.064" size="1.778" layer="95">VCC</text>
-<text x="0" y="2.794" size="1.016" layer="95" align="bottom-center">LINUX_1V8</text>
-</symbol>
 <symbol name="SIM">
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -3408,19 +3382,6 @@ Rounded side is up.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VCC_LINUX_1V8">
-<description>1.8 volt output from the Edison</description>
-<gates>
-<gate name="G$1" symbol="VCC_LINUX_1V8" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NANO_SIM" prefix="J">
 <description>WURTH Nano SIM Connector</description>
 <gates>
@@ -4841,34 +4802,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
 <gates>
 <gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="regulators">
-<description>LAB11 - Regulators.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="+3V3">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="+3V3" prefix="+3V3">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="P1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -12441,6 +12374,90 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="5V" urn="urn:adsk.eagle:symbol:39412/1" library_version="1">
+<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:39418/1" library_version="1">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="VCCA" urn="urn:adsk.eagle:symbol:39420/1" library_version="1">
+<description>&lt;h3&gt;VCC Analog Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VCCA" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5V" urn="urn:adsk.eagle:component:39433/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" urn="urn:adsk.eagle:component:39449/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Positive voltage supply (traditionally for a BJT device, C=collector).&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCCA" urn="urn:adsk.eagle:component:39457/1" library_version="1">
+<description>&lt;h3&gt;Analog VCC Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Generic analog supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCCA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12632,7 +12649,6 @@ chip</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
-<part name="U$12" library="signpost" deviceset="VCC_LINUX_1V8" device="" value="1V8"/>
 <part name="C29" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF">
 <attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
@@ -12734,7 +12750,6 @@ chip</description>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+5" library="regulators" deviceset="+3V3" device=""/>
 <part name="C38" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF">
 <attribute name="DIGIKEY" value="490-10992-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
@@ -12754,12 +12769,9 @@ chip</description>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MPN" value="GRM033R61E103KA12D"/>
 </part>
-<part name="P+6" library="regulators" deviceset="+3V3" device="" value="3V8"/>
 <part name="J7" library="connector" deviceset="TC2030-JLINK" device="-L" value="TC2030-JLINK-L"/>
-<part name="P+7" library="regulators" deviceset="+3V3" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D2" library="leds" deviceset="SML-LX0404SIUPGUSB" device=""/>
-<part name="P+11" library="regulators" deviceset="+3V3" device=""/>
 <part name="R7" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="470">
 <attribute name="DIGIKEY" value="311-470HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -12830,7 +12842,6 @@ chip</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+12" library="regulators" deviceset="+3V3" device=""/>
 <part name="C21" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="47nF">
 <attribute name="DIGIKEY" value="490-5854-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
@@ -12876,7 +12887,6 @@ chip</description>
 <attribute name="MANUFACTOR" value="Hirose Electric Co Ltd"/>
 <attribute name="MPN" value="DM3AT-SF-PEJM5"/>
 </part>
-<part name="P+10" library="regulators" deviceset="+3V3" device=""/>
 <part name="U10" library="chips" deviceset="SIP32510" device=""/>
 <part name="R27" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="100k">
 <attribute name="DIGIKEY" value="311-100KGRCT-ND"/>
@@ -12903,10 +12913,6 @@ chip</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="RC0603JR-0710KL"/>
 </part>
-<part name="P+3" library="regulators" deviceset="+3V3" device=""/>
-<part name="3V3" library="regulators" deviceset="+3V3" device="" value="3V3"/>
-<part name="P+4" library="regulators" deviceset="+3V3" device=""/>
-<part name="P+8" library="regulators" deviceset="+3V3" device="" value="+5V"/>
 <part name="FRAME1" library="lab11-frames" deviceset="LETTER_L_BLANK" device="">
 <attribute name="AUTHOR" value="Neha Godbole"/>
 <attribute name="DATE" value="4/22/19"/>
@@ -13101,8 +13107,6 @@ chip</description>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 </part>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+15" library="regulators" deviceset="+3V3" device="" value="+3V8"/>
-<part name="P+14" library="regulators" deviceset="+3V3" device="" value="+3V3"/>
 <part name="GND25" library="umich" deviceset="GND" device=""/>
 <part name="LED1" library="leds" deviceset="LED" device="0603" value="BLUE">
 <attribute name="DIGIKEY" value="511-1578-1-ND "/>
@@ -13132,8 +13136,6 @@ chip</description>
 <part name="GND37" library="umich" deviceset="GND" device=""/>
 <part name="GND38" library="umich" deviceset="GND" device=""/>
 <part name="GND39" library="umich" deviceset="GND" device=""/>
-<part name="P+1" library="regulators" deviceset="+3V3" device="" value="+5V"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L5" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0603_M" package3d_urn="urn:adsk.eagle:package:2593735/1" value="1k">
 <attribute name="DIGIKEY" value="490-1015-1-ND"/>
@@ -13145,6 +13147,21 @@ chip</description>
 <attribute name="MANUFACTURER" value="BLM18AG102SN1D"/>
 <attribute name="MPN" value="Murata Electronics"/>
 </part>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="U$5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCCA" device=""/>
+<part name="U$6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCCA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13247,9 +13264,6 @@ chip</description>
 <attribute name="NAME" x="-12.7" y="34.29" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="-12.7" y="31.75" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="P+3" gate="P1" x="15.24" y="99.06" smashed="yes">
-<attribute name="VALUE" x="12.7" y="93.98" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="FRAME7" gate="G$1" x="-195.58" y="-43.18" smashed="yes"/>
 <instance part="FRAME7" gate="G$2" x="-43.18" y="-43.18" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="-30.48" y="-41.91" size="2.54" layer="94" font="vector"/>
@@ -13265,6 +13279,9 @@ chip</description>
 <instance part="L6" gate="L$1" x="12.7" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.78" y="52.07" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="17.78" y="57.15" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="15.24" y="96.52" smashed="yes">
+<attribute name="VALUE" x="15.24" y="99.314" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -13462,14 +13479,6 @@ chip</description>
 <label x="-143.51" y="49.53" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="P+3" gate="P1" pin="+3V3"/>
-<wire x1="15.24" y1="88.9" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="VSUPP"/>
-<wire x1="15.24" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U7" gate="MAX-M8" pin="TXD"/>
@@ -13484,6 +13493,14 @@ chip</description>
 <pinref part="U7" gate="MAX-M8" pin="RXD"/>
 <wire x1="5.08" y1="53.34" x2="1.27" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="1.27" y1="53.34" x2="1.27" y2="57.15" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<wire x1="15.24" y1="88.9" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="VSUPP"/>
+<wire x1="15.24" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 </nets>
@@ -13615,15 +13632,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="NAME" x="98.0186" y="57.15" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="93.218" y="57.15" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="3V3" gate="P1" x="-2.54" y="5.08" smashed="yes">
-<attribute name="VALUE" x="-5.08" y="0" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+4" gate="P1" x="147.32" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="144.78" y="-10.16" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+8" gate="P1" x="96.52" y="81.28" smashed="yes">
-<attribute name="VALUE" x="93.98" y="76.2" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="FRAME6" gate="G$1" x="-55.88" y="-83.82" smashed="yes"/>
 <instance part="FRAME6" gate="G$2" x="96.52" y="-83.82" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="109.22" y="-82.55" size="2.54" layer="94" font="vector"/>
@@ -13634,6 +13642,15 @@ If we don't have VCC the particle won't be on anyways.</text>
 </instance>
 <instance part="GND41" gate="1" x="104.14" y="-20.32" smashed="yes">
 <attribute name="VALUE" x="101.6" y="-22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="96.52" y="78.74" smashed="yes">
+<attribute name="VALUE" x="96.52" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="-2.54" y="2.54" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="5.334" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY15" gate="G$1" x="147.32" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="147.32" y="-4.826" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -13852,12 +13869,18 @@ If we don't have VCC the particle won't be on anyways.</text>
 <label x="160.02" y="-27.94" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="5V" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="58.42" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="G$1" pin="5V"/>
+</segment>
+</net>
+<net name="VCC" class="0">
 <segment>
 <pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="3V3" gate="P1" pin="+3V3"/>
 <wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.1524" layer="91"/>
@@ -13869,16 +13892,12 @@ If we don't have VCC the particle won't be on anyways.</text>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="-35.56" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="45.72" y="-17.78"/>
-</segment>
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="P+8" gate="P1" pin="+3V3"/>
-<wire x1="96.52" y1="58.42" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="P+4" gate="P1" pin="+3V3"/>
 <wire x1="147.32" y1="-17.78" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 </nets>
@@ -13902,9 +13921,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="VALUE" x="-53.34" y="58.42" size="1.27" layer="96" rot="MR0"/>
 <attribute name="MPN" x="-66.04" y="81.28" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTOR" x="-66.04" y="81.28" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="P+10" gate="P1" x="-175.26" y="91.44" smashed="yes">
-<attribute name="VALUE" x="-177.8" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U10" gate="G$1" x="-165.1" y="78.74" smashed="yes">
 <attribute name="NAME" x="-165.1" y="91.948" size="1.778" layer="95"/>
@@ -13937,6 +13953,9 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="AUTHOR" x="-71.755" y="-16.51" size="2.54" layer="94" font="vector"/>
 <attribute name="REV" x="5.11175" y="-11.104878125" size="2.54" layer="94" font="vector" align="bottom-center"/>
 <attribute name="TITLE" x="-87.63" y="-10.6172" size="3.175" layer="94" font="vector"/>
+</instance>
+<instance part="SUPPLY16" gate="G$1" x="-175.26" y="88.9" smashed="yes">
+<attribute name="VALUE" x="-175.26" y="91.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -13973,14 +13992,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <wire x1="-152.4" y1="73.66" x2="-144.78" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-144.78" y="73.66"/>
 <pinref part="R27" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="P+10" gate="P1" pin="+3V3"/>
-<pinref part="U10" gate="G$1" pin="VSUPP"/>
-<wire x1="-175.26" y1="88.9" x2="-175.26" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="86.36" x2="-175.26" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!NRF_CS_SD" class="0">
@@ -14054,6 +14065,14 @@ If we don't have VCC the particle won't be on anyways.</text>
 <label x="-83.82" y="73.66" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U10" gate="G$1" pin="VSUPP"/>
+<wire x1="-175.26" y1="88.9" x2="-175.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="86.36" x2="-175.26" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -14109,7 +14128,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="VALUE" x="24.13" y="42.418" size="1.778" layer="96" rot="MR0"/>
 <attribute name="DIGIKEY" x="20.32" y="48.26" size="1.27" layer="96" font="vector" rot="MR0" display="off"/>
 </instance>
-<instance part="U$12" gate="G$1" x="55.88" y="73.66" smashed="yes"/>
 <instance part="C29" gate="C$1" x="60.96" y="66.04" smashed="yes">
 <attribute name="DIGIKEY" x="60.96" y="66.04" size="1.27" layer="96" align="bottom-center" display="off"/>
 <attribute name="NAME" x="59.69" y="64.77" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
@@ -14143,8 +14161,11 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="REV" x="198.15175" y="-51.744878125" size="2.54" layer="94" font="vector" align="bottom-center"/>
 <attribute name="TITLE" x="105.41" y="-51.2572" size="3.175" layer="94" font="vector"/>
 </instance>
-<instance part="P+2" gate="VCC" x="121.92" y="53.34" smashed="yes" rot="R270">
-<attribute name="VALUE" x="119.38" y="55.88" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="G$1" x="119.38" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="122.174" y="53.34" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY17" gate="G$1" x="55.88" y="73.66" smashed="yes">
+<attribute name="VALUE" x="55.88" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -14246,19 +14267,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <pinref part="FB1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="VCC_LINUX_1V8" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="VCCIO"/>
-<pinref part="U$12" gate="G$1" pin="VCC_LINUX_1V8"/>
-<wire x1="53.34" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="48.26" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C29" gate="C$1" pin="1"/>
-<wire x1="55.88" y1="71.12" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="68.58" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
-<junction x="55.88" y="71.12"/>
-</segment>
-</net>
 <net name="UART_RX" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -14275,7 +14283,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 <label x="10.16" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="FB1" gate="G$1" pin="P$2"/>
 <wire x1="83.82" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
@@ -14285,7 +14293,20 @@ If we don't have VCC the particle won't be on anyways.</text>
 <wire x1="88.9" y1="50.8" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <junction x="88.9" y="50.8"/>
 <wire x1="88.9" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
+<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="VCCIO"/>
+<wire x1="53.34" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="48.26" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C29" gate="C$1" pin="1"/>
+<wire x1="55.88" y1="71.12" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="68.58" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<junction x="55.88" y="71.12"/>
+<pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 </nets>
@@ -14299,18 +14320,12 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="NAME" x="607.06" y="10.414" size="1.778" layer="95" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="607.06" y="-7.366" size="1.778" layer="96" ratio="12" rot="MR0"/>
 </instance>
-<instance part="P+7" gate="P1" x="617.22" y="15.24" smashed="yes">
-<attribute name="VALUE" x="614.68" y="10.16" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND19" gate="1" x="617.22" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="614.68" y="-12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="576.58" y="38.1" smashed="yes">
 <attribute name="NAME" x="573.786" y="43.434" size="1.016" layer="95" ratio="12" align="bottom-center"/>
 <attribute name="VALUE" x="574.04" y="31.75" size="1.016" layer="96" ratio="12" align="bottom-center"/>
-</instance>
-<instance part="P+11" gate="P1" x="561.34" y="45.72" smashed="yes">
-<attribute name="VALUE" x="558.8" y="40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R7" gate="G$1" x="599.44" y="45.72" smashed="yes">
 <attribute name="NAME" x="595.63" y="47.2186" size="1.778" layer="95"/>
@@ -14402,9 +14417,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="GND22" gate="1" x="607.06" y="99.06" smashed="yes">
 <attribute name="VALUE" x="604.52" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="P+12" gate="P1" x="675.64" y="154.94" smashed="yes">
-<attribute name="VALUE" x="673.1" y="149.86" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C21" gate="C$1" x="622.3" y="111.76" smashed="yes">
 <attribute name="DIGIKEY" x="622.3" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="622.3" y="111.76" size="1.778" layer="96" display="off"/>
@@ -14468,6 +14480,15 @@ If we don't have VCC the particle won't be on anyways.</text>
 </instance>
 <instance part="GND7" gate="1" x="779.78" y="38.1" smashed="yes">
 <attribute name="VALUE" x="777.24" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY18" gate="G$1" x="675.64" y="152.4" smashed="yes">
+<attribute name="VALUE" x="675.64" y="155.194" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="561.34" y="43.18" smashed="yes">
+<attribute name="VALUE" x="561.34" y="45.974" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY20" gate="G$1" x="617.22" y="12.7" smashed="yes">
+<attribute name="VALUE" x="617.22" y="15.494" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -14560,54 +14581,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <junction x="777.24" y="71.12"/>
 <wire x1="784.86" y1="71.12" x2="784.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="P+7" gate="P1" pin="+3V3"/>
-<wire x1="617.22" y1="7.62" x2="617.22" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="VCC"/>
-<wire x1="609.6" y1="7.62" x2="617.22" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="VDD"/>
-<wire x1="566.42" y1="38.1" x2="561.34" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="P1" pin="+3V3"/>
-<wire x1="561.34" y1="43.18" x2="561.34" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C33" gate="C$1" pin="1"/>
-<wire x1="678.18" y1="149.86" x2="690.88" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="690.88" y1="149.86" x2="723.9" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="723.9" y1="149.86" x2="723.9" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="723.9" y1="149.86" x2="731.52" y2="149.86" width="0.1524" layer="91"/>
-<junction x="723.9" y="149.86"/>
-<pinref part="C27" gate="C$1" pin="1"/>
-<wire x1="731.52" y1="149.86" x2="731.52" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C26" gate="C$1" pin="1"/>
-<wire x1="731.52" y1="149.86" x2="739.14" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="739.14" y1="149.86" x2="739.14" y2="147.32" width="0.1524" layer="91"/>
-<junction x="731.52" y="149.86"/>
-<pinref part="C24" gate="C$1" pin="1"/>
-<wire x1="739.14" y1="149.86" x2="746.76" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="746.76" y1="149.86" x2="746.76" y2="147.32" width="0.1524" layer="91"/>
-<junction x="739.14" y="149.86"/>
-<pinref part="C40" gate="C$1" pin="1"/>
-<wire x1="746.76" y1="149.86" x2="754.38" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="754.38" y1="149.86" x2="754.38" y2="147.32" width="0.1524" layer="91"/>
-<junction x="746.76" y="149.86"/>
-<pinref part="U9" gate="G$1" pin="VDDH"/>
-<pinref part="U9" gate="G$1" pin="VDD"/>
-<wire x1="675.64" y1="149.86" x2="675.64" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="678.18" y1="137.16" x2="678.18" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="678.18" y1="149.86" x2="675.64" y2="149.86" width="0.1524" layer="91"/>
-<junction x="678.18" y="149.86"/>
-<pinref part="P+12" gate="P1" pin="+3V3"/>
-<wire x1="675.64" y1="152.4" x2="675.64" y2="149.86" width="0.1524" layer="91"/>
-<junction x="675.64" y="149.86"/>
-<pinref part="TP15" gate="G$1" pin="TP"/>
-<wire x1="690.88" y1="147.32" x2="690.88" y2="149.86" width="0.1524" layer="91"/>
-<junction x="690.88" y="149.86"/>
 </segment>
 </net>
 <net name="NRF_SWDIO" class="0">
@@ -14997,12 +14970,61 @@ If we don't have VCC the particle won't be on anyways.</text>
 <label x="706.12" y="114.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="C33" gate="C$1" pin="1"/>
+<wire x1="678.18" y1="149.86" x2="690.88" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="690.88" y1="149.86" x2="723.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="723.9" y1="149.86" x2="723.9" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="723.9" y1="149.86" x2="731.52" y2="149.86" width="0.1524" layer="91"/>
+<junction x="723.9" y="149.86"/>
+<pinref part="C27" gate="C$1" pin="1"/>
+<wire x1="731.52" y1="149.86" x2="731.52" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C26" gate="C$1" pin="1"/>
+<wire x1="731.52" y1="149.86" x2="739.14" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="739.14" y1="149.86" x2="739.14" y2="147.32" width="0.1524" layer="91"/>
+<junction x="731.52" y="149.86"/>
+<pinref part="C24" gate="C$1" pin="1"/>
+<wire x1="739.14" y1="149.86" x2="746.76" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="149.86" x2="746.76" y2="147.32" width="0.1524" layer="91"/>
+<junction x="739.14" y="149.86"/>
+<pinref part="C40" gate="C$1" pin="1"/>
+<wire x1="746.76" y1="149.86" x2="754.38" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="149.86" x2="754.38" y2="147.32" width="0.1524" layer="91"/>
+<junction x="746.76" y="149.86"/>
+<pinref part="U9" gate="G$1" pin="VDDH"/>
+<pinref part="U9" gate="G$1" pin="VDD"/>
+<wire x1="675.64" y1="149.86" x2="675.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="678.18" y1="137.16" x2="678.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="678.18" y1="149.86" x2="675.64" y2="149.86" width="0.1524" layer="91"/>
+<junction x="678.18" y="149.86"/>
+<wire x1="675.64" y1="152.4" x2="675.64" y2="149.86" width="0.1524" layer="91"/>
+<junction x="675.64" y="149.86"/>
+<pinref part="TP15" gate="G$1" pin="TP"/>
+<wire x1="690.88" y1="147.32" x2="690.88" y2="149.86" width="0.1524" layer="91"/>
+<junction x="690.88" y="149.86"/>
+<pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="VDD"/>
+<wire x1="566.42" y1="38.1" x2="561.34" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="561.34" y1="43.18" x2="561.34" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="617.22" y1="7.62" x2="617.22" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="VCC"/>
+<wire x1="609.6" y1="7.62" x2="617.22" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <description>Power Suppy and Charging</description>
 <plain>
 <text x="35.56" y="73.66" size="3.81" layer="98" align="bottom-center">Power Supply and Charging</text>
+<text x="111.76" y="2.54" size="1.778" layer="91">VCCA = 3.8V</text>
 </plain>
 <instances>
 <instance part="R11" gate="G$1" x="30.48" y="58.42" smashed="yes" rot="R90">
@@ -15106,9 +15128,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="SUPPLY6" gate="1" x="134.62" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="132.08" y="-48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="P+5" gate="P1" x="160.02" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="157.48" y="-10.16" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C38" gate="C$1" x="116.84" y="-22.86" smashed="yes">
 <attribute name="NAME" x="115.57" y="-24.13" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="118.11" y="-24.13" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
@@ -15134,9 +15153,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="NAME" x="148.59" y="-24.13" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="151.13" y="-24.13" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="P+6" gate="P1" x="109.22" y="-2.54" smashed="yes">
-<attribute name="VALUE" x="106.68" y="-7.62" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="FRAME2" gate="G$1" x="-50.8" y="-88.9" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="101.6" y="-88.9" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="114.3" y="-87.63" size="2.54" layer="94" font="vector"/>
@@ -15152,8 +15168,14 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="GND24" gate="1" x="96.52" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="93.98" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="P1" x="5.08" y="66.04" smashed="yes" rot="R90">
-<attribute name="VALUE" x="10.16" y="63.5" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY12" gate="G$1" x="7.62" y="66.04" smashed="yes" rot="R90">
+<attribute name="VALUE" x="4.826" y="66.04" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY21" gate="G$1" x="160.02" y="-7.62" smashed="yes">
+<attribute name="VALUE" x="160.02" y="-4.826" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="U$5" gate="G$1" x="109.22" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="109.22" y="-2.286" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -15340,62 +15362,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <junction x="88.9" y="-22.86"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<wire x1="147.32" y1="-12.7" x2="160.02" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="-12.7" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="P1" pin="+3V3"/>
-<pinref part="C39" gate="C$1" pin="1"/>
-<wire x1="160.02" y1="-20.32" x2="160.02" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="160.02" y="-12.7"/>
-<pinref part="U5" gate="G$1" pin="OUT"/>
-</segment>
-<segment>
-<wire x1="43.18" y1="58.42" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="VDD/2"/>
-<wire x1="45.72" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="VDD/1"/>
-<wire x1="45.72" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<junction x="43.18" y="58.42"/>
-<pinref part="C36" gate="C$1" pin="1"/>
-<wire x1="17.78" y1="55.88" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
-<junction x="30.48" y="66.04"/>
-<pinref part="P+1" gate="P1" pin="+3V3"/>
-<wire x1="17.78" y1="66.04" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
-<junction x="17.78" y="66.04"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="IN"/>
-<wire x1="116.84" y1="-12.7" x2="121.92" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="-17.78" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="!SHDN"/>
-<wire x1="121.92" y1="-17.78" x2="116.84" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="116.84" y="-17.78"/>
-<pinref part="C38" gate="C$1" pin="1"/>
-<wire x1="116.84" y1="-20.32" x2="116.84" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VOUT"/>
-<wire x1="78.74" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<junction x="88.9" y="-12.7"/>
-<wire x1="88.9" y1="-12.7" x2="96.52" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="C44" gate="C$1" pin="1"/>
-<wire x1="96.52" y1="-12.7" x2="101.6" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="101.6" y="-12.7"/>
-<junction x="116.84" y="-12.7"/>
-<pinref part="C45" gate="C$1" pin="1"/>
-<junction x="96.52" y="-12.7"/>
-<wire x1="101.6" y1="-12.7" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="P+6" gate="P1" pin="+3V3"/>
-<wire x1="109.22" y1="-12.7" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="-5.08" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="109.22" y="-12.7"/>
-</segment>
-</net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="BP"/>
@@ -15433,6 +15399,66 @@ If we don't have VCC the particle won't be on anyways.</text>
 <label x="7.62" y="-12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="15.24" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="15.24" y="-12.7"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<wire x1="43.18" y1="58.42" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="66.04" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="VDD/2"/>
+<wire x1="45.72" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="VDD/1"/>
+<wire x1="45.72" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<junction x="43.18" y="58.42"/>
+<pinref part="C36" gate="C$1" pin="1"/>
+<wire x1="17.78" y1="55.88" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<junction x="30.48" y="66.04"/>
+<wire x1="17.78" y1="66.04" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
+<junction x="17.78" y="66.04"/>
+<pinref part="SUPPLY12" gate="G$1" pin="5V"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<wire x1="147.32" y1="-12.7" x2="160.02" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-12.7" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="C39" gate="C$1" pin="1"/>
+<wire x1="160.02" y1="-20.32" x2="160.02" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="160.02" y="-12.7"/>
+<pinref part="U5" gate="G$1" pin="OUT"/>
+<pinref part="SUPPLY21" gate="G$1" pin="VCC"/>
+</segment>
+</net>
+<net name="VCCA" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IN"/>
+<wire x1="116.84" y1="-12.7" x2="121.92" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-17.78" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="!SHDN"/>
+<wire x1="121.92" y1="-17.78" x2="116.84" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="116.84" y="-17.78"/>
+<pinref part="C38" gate="C$1" pin="1"/>
+<wire x1="116.84" y1="-20.32" x2="116.84" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VOUT"/>
+<wire x1="78.74" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<junction x="88.9" y="-12.7"/>
+<wire x1="88.9" y1="-12.7" x2="96.52" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="C44" gate="C$1" pin="1"/>
+<wire x1="96.52" y1="-12.7" x2="101.6" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="101.6" y="-12.7"/>
+<junction x="116.84" y="-12.7"/>
+<pinref part="C45" gate="C$1" pin="1"/>
+<junction x="96.52" y="-12.7"/>
+<wire x1="101.6" y1="-12.7" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-12.7" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-5.08" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="109.22" y="-12.7"/>
+<pinref part="U$5" gate="G$1" pin="VCCA"/>
 </segment>
 </net>
 </nets>
@@ -15598,12 +15624,6 @@ prevent glitching</text>
 <instance part="GND28" gate="1" x="299.72" y="63.5" smashed="yes">
 <attribute name="VALUE" x="297.18" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="P+15" gate="P1" x="271.78" y="142.24" smashed="yes">
-<attribute name="VALUE" x="269.24" y="137.16" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+14" gate="P1" x="101.6" y="83.82" smashed="yes">
-<attribute name="VALUE" x="99.06" y="78.74" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND25" gate="1" x="154.94" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="152.4" y="-12.7" size="1.778" layer="96"/>
 </instance>
@@ -15627,6 +15647,12 @@ prevent glitching</text>
 <attribute name="DIGIKEY" x="165.1" y="0" size="1.016" layer="96" rot="R90" align="bottom-center" display="off"/>
 <attribute name="NAME" x="163.6014" y="-3.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="168.402" y="-3.81" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY22" gate="G$1" x="101.6" y="81.28" smashed="yes">
+<attribute name="VALUE" x="101.6" y="84.074" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="U$6" gate="G$1" x="271.78" y="139.7" smashed="yes">
+<attribute name="VALUE" x="271.78" y="142.494" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -15859,23 +15885,6 @@ prevent glitching</text>
 <label x="104.14" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<pinref part="U13" gate="G$1" pin="VCC_B"/>
-<wire x1="101.6" y1="68.58" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="78.74" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<junction x="101.6" y="78.74"/>
-<pinref part="P+14" gate="P1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<pinref part="P+15" gate="P1" pin="+3V3"/>
-<wire x1="271.78" y1="127" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U12" gate="G$1" pin="TXD"/>
@@ -16024,6 +16033,25 @@ prevent glitching</text>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="165.1" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="157.48" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="U13" gate="G$1" pin="VCC_B"/>
+<wire x1="101.6" y1="68.58" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="78.74" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<junction x="101.6" y="78.74"/>
+<pinref part="SUPPLY22" gate="G$1" pin="VCC"/>
+</segment>
+</net>
+<net name="VCCA" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="S"/>
+<wire x1="271.78" y1="127" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="VCCA"/>
 </segment>
 </net>
 </nets>
@@ -16306,7 +16334,7 @@ prevent glitching</text>
 <label x="193.04" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="U22" gate="A" pin="V+"/>
 <wire x1="246.38" y1="43.18" x2="248.92" y2="43.18" width="0.1524" layer="91"/>
@@ -16519,7 +16547,6 @@ prevent glitching</text>
 <approved hash="208,7,101.6,81.28,+3V3,sup,,,,"/>
 <approved hash="208,7,271.78,139.7,+3V3,sup,,,,"/>
 <approved hash="113,2,-2.54,-31.75,B1,,,,,"/>
-<approved hash="113,2,4.40267,71.4096,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
