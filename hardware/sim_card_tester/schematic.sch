@@ -12874,9 +12874,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="CC0603KRX7R9BB821"/>
 </part>
-<part name="TP13" library="headers" deviceset="TEST-POINT" device=""/>
-<part name="TP14" library="headers" deviceset="TEST-POINT" device=""/>
-<part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06SQ" package3d_urn="urn:adsk.eagle:package:27952/1"/>
+<part name="TP29" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP30" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP31" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06SQ" package3d_urn="urn:adsk.eagle:package:27952/1"/>
 <part name="C41" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF">
 <attribute name="DIGIKEY" value="490-10992-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
@@ -13162,6 +13162,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="U$5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCCA" device=""/>
 <part name="U$6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCCA" device=""/>
+<part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="TP1" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP2" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP3" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP4" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP5" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP6" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP7" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP8" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP9" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP10" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP11" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP12" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP13" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP14" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP15" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP16" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP17" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP18" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP19" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP20" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP21" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP22" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP23" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP24" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP25" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP26" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP28" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="TP27" library="headers" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14460,13 +14489,13 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="NAME" x="628.65" y="110.49" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="631.19" y="110.49" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="TP13" gate="G$1" x="716.28" y="68.58" smashed="yes" rot="R180">
+<instance part="TP29" gate="G$1" x="716.28" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="719.455" y="68.58" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
 </instance>
-<instance part="TP14" gate="G$1" x="716.28" y="66.04" smashed="yes" rot="R180">
+<instance part="TP30" gate="G$1" x="716.28" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="719.455" y="66.04" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
 </instance>
-<instance part="TP15" gate="G$1" x="690.88" y="144.78" smashed="yes" rot="R180">
+<instance part="TP31" gate="G$1" x="690.88" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="692.15" y="143.51" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="689.61" y="146.05" size="1.778" layer="97" rot="R180"/>
 </instance>
@@ -14805,7 +14834,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 <net name="NRF_GPIO_1" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="P0.26"/>
-<pinref part="TP14" gate="G$1" pin="TESTPOINT"/>
+<pinref part="TP30" gate="G$1" pin="TESTPOINT"/>
 <wire x1="701.04" y1="66.04" x2="713.74" y2="66.04" width="0.1524" layer="91"/>
 <label x="703.58" y="66.04" size="1.27" layer="95"/>
 </segment>
@@ -14813,7 +14842,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 <net name="NRF_GPIO_0" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="P0.27"/>
-<pinref part="TP13" gate="G$1" pin="TESTPOINT"/>
+<pinref part="TP29" gate="G$1" pin="TESTPOINT"/>
 <wire x1="701.04" y1="68.58" x2="713.74" y2="68.58" width="0.1524" layer="91"/>
 <label x="703.58" y="68.58" size="1.27" layer="95"/>
 </segment>
@@ -15000,7 +15029,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 <junction x="678.18" y="149.86"/>
 <wire x1="675.64" y1="152.4" x2="675.64" y2="149.86" width="0.1524" layer="91"/>
 <junction x="675.64" y="149.86"/>
-<pinref part="TP15" gate="G$1" pin="TP"/>
+<pinref part="TP31" gate="G$1" pin="TP"/>
 <wire x1="690.88" y1="147.32" x2="690.88" y2="149.86" width="0.1524" layer="91"/>
 <junction x="690.88" y="149.86"/>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
@@ -16118,6 +16147,93 @@ prevent glitching</text>
 <instance part="GND37" gate="1" x="276.86" y="96.52" smashed="yes"/>
 <instance part="GND38" gate="1" x="276.86" y="68.58" smashed="yes"/>
 <instance part="GND39" gate="1" x="276.86" y="38.1" smashed="yes"/>
+<instance part="GND44" gate="1" x="116.84" y="48.26" smashed="yes">
+<attribute name="VALUE" x="114.3" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="TP1" gate="G$1" x="127" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="121.92" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP2" gate="G$1" x="127" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="119.38" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP3" gate="G$1" x="127" y="116.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="116.84" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP4" gate="G$1" x="127" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="114.3" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP5" gate="G$1" x="127" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="111.76" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP6" gate="G$1" x="127" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="109.22" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP7" gate="G$1" x="127" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="106.68" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP8" gate="G$1" x="127" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="104.14" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP9" gate="G$1" x="127" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="101.6" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP10" gate="G$1" x="127" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="99.06" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP11" gate="G$1" x="127" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="96.52" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP12" gate="G$1" x="127" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="93.98" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP13" gate="G$1" x="127" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="91.44" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP14" gate="G$1" x="127" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="88.9" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP15" gate="G$1" x="127" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="86.36" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP16" gate="G$1" x="127" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="83.82" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP17" gate="G$1" x="127" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="81.28" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP18" gate="G$1" x="127" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="78.74" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP19" gate="G$1" x="127" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="76.2" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP20" gate="G$1" x="127" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="73.66" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP21" gate="G$1" x="127" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="71.12" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP22" gate="G$1" x="127" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="68.58" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP23" gate="G$1" x="127" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="66.04" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP24" gate="G$1" x="127" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="63.5" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP25" gate="G$1" x="127" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="58.42" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP26" gate="G$1" x="127" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="55.88" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP28" gate="G$1" x="127" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="50.8" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
+<instance part="TP27" gate="G$1" x="127" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="130.175" y="53.34" size="1.016" layer="95" ratio="12" rot="R180" align="center-right"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16405,6 +16521,11 @@ prevent glitching</text>
 <wire x1="246.38" y1="53.34" x2="251.46" y2="53.34" width="0.1524" layer="91"/>
 <label x="251.46" y="53.34" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TP26" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<label x="121.92" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="MUX_SEL1" class="0">
 <segment>
@@ -16426,6 +16547,11 @@ prevent glitching</text>
 <pinref part="U22" gate="A" pin="A0"/>
 <label x="190.5" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="195.58" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP23" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MUX_EN" class="0">
@@ -16464,6 +16590,11 @@ prevent glitching</text>
 <wire x1="185.42" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
 <junction x="185.42" y="40.64"/>
 <label x="170.18" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP9" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<label x="121.92" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16515,6 +16646,179 @@ prevent glitching</text>
 <wire x1="276.86" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND44" gate="1" pin="GND"/>
+<wire x1="116.84" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="TP28" gate="G$1" pin="TESTPOINT"/>
+</segment>
+</net>
+<net name="GPS_RXD" class="0">
+<segment>
+<pinref part="TP1" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<label x="121.92" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPS_TXD" class="0">
+<segment>
+<pinref part="TP2" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<label x="121.92" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="WDI" class="0">
+<segment>
+<pinref part="TP3" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
+<label x="121.92" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!RTC_CS" class="0">
+<segment>
+<pinref part="TP4" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
+<label x="121.92" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="NRF_MOSI" class="0">
+<segment>
+<pinref part="TP5" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
+<label x="121.92" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SD_EN" class="0">
+<segment>
+<pinref part="TP6" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<label x="121.92" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="NRF_MISO" class="0">
+<segment>
+<pinref part="TP7" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<label x="121.92" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!RTC_INT1" class="0">
+<segment>
+<pinref part="TP8" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+<label x="121.92" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GPS_PWR_EN" class="0">
+<segment>
+<pinref part="TP10" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
+<label x="121.92" y="99.06" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!NRF_CS_SD" class="0">
+<segment>
+<pinref part="TP11" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
+<label x="121.92" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!EXTERNAL_RST" class="0">
+<segment>
+<pinref part="TP12" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
+<label x="121.92" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!NRF_RST" class="0">
+<segment>
+<pinref part="TP13" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<label x="121.92" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="NRF_SWDIO" class="0">
+<segment>
+<pinref part="TP14" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
+<label x="121.92" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="NRF_SWDCLK" class="0">
+<segment>
+<pinref part="TP15" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<label x="121.92" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GSM_CTS" class="0">
+<segment>
+<pinref part="TP16" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<label x="121.92" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GSM_POWER" class="0">
+<segment>
+<pinref part="TP17" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="121.92" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GSM_RTS" class="0">
+<segment>
+<pinref part="TP18" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<label x="121.92" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GSM_RST" class="0">
+<segment>
+<pinref part="TP19" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
+<label x="121.92" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GSM_TX" class="0">
+<segment>
+<pinref part="TP20" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
+<label x="121.92" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!SD_DETECT" class="0">
+<segment>
+<pinref part="TP21" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<label x="121.92" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BATIN" class="0">
+<segment>
+<pinref part="TP22" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<label x="121.92" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="UART_RX" class="0">
+<segment>
+<pinref part="TP24" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="UART_TX" class="0">
+<segment>
+<pinref part="TP25" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
+<label x="121.92" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="TP27" gate="G$1" pin="TESTPOINT"/>
+<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="121.92" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
@@ -16522,31 +16826,21 @@ prevent glitching</text>
 <errors>
 <approved hash="104,1,-149.86,73.66,A1,2,GND,,,"/>
 <approved hash="104,1,-109.22,54.61,U2,VCC,VCC_RF,,,"/>
-<approved hash="104,6,45.72,58.42,U6,VDD/1,+3V3,,,"/>
-<approved hash="104,6,45.72,55.88,U6,VDD/2,+3V3,,,"/>
+<approved hash="104,6,45.72,58.42,U6,VDD/1,5V,,,"/>
+<approved hash="104,6,45.72,55.88,U6,VDD/2,5V,,,"/>
 <approved hash="104,6,81.28,58.42,U6,VBAT/3,BAT,,,"/>
 <approved hash="104,6,81.28,55.88,U6,VBAT/4,BAT,,,"/>
 <approved hash="104,6,81.28,45.72,U6,VSS,GND,,,"/>
 <approved hash="104,6,78.74,-25.4,IC1,PGND,GND,,,"/>
-<approved hash="104,8,246.38,134.62,U15,V+,VCC,,,"/>
-<approved hash="104,8,246.38,101.6,U20,V+,VCC,,,"/>
-<approved hash="104,8,246.38,73.66,U21,V+,VCC,,,"/>
-<approved hash="104,8,246.38,43.18,U22,V+,VCC,,,"/>
-<approved hash="208,1,15.24,96.52,+3V3,sup,,,,"/>
-<approved hash="208,2,-2.54,2.54,+3V3,sup,,,,"/>
-<approved hash="208,2,96.52,78.74,+3V3,sup,,,,"/>
-<approved hash="208,2,147.32,-7.62,+3V3,sup,,,,"/>
-<approved hash="208,3,-175.26,88.9,+3V3,sup,,,,"/>
-<approved hash="208,5,617.22,12.7,+3V3,sup,,,,"/>
-<approved hash="208,5,561.34,43.18,+3V3,sup,,,,"/>
-<approved hash="208,5,675.64,152.4,+3V3,sup,,,,"/>
-<approved hash="208,6,160.02,-7.62,+3V3,sup,,,,"/>
-<approved hash="208,6,7.62,66.04,+3V3,sup,,,,"/>
-<approved hash="208,6,78.74,-12.7,+3V3,out,,,,"/>
-<approved hash="208,6,109.22,-5.08,+3V3,sup,,,,"/>
-<approved hash="208,7,101.6,81.28,+3V3,sup,,,,"/>
-<approved hash="208,7,271.78,139.7,+3V3,sup,,,,"/>
+<approved hash="104,8,246.38,134.62,U15,V+,5V,,,"/>
+<approved hash="104,8,246.38,101.6,U20,V+,5V,,,"/>
+<approved hash="104,8,246.38,73.66,U21,V+,5V,,,"/>
+<approved hash="104,8,246.38,43.18,U22,V+,5V,,,"/>
+<approved hash="208,6,78.74,-12.7,VCCA,out,,,,"/>
+<approved hash="208,6,109.22,-5.08,VCCA,sup,,,,"/>
+<approved hash="208,7,271.78,139.7,VCCA,sup,,,,"/>
 <approved hash="113,2,-2.54,-31.75,B1,,,,,"/>
+<approved hash="113,2,4.40267,71.4096,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
