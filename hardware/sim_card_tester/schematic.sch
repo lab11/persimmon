@@ -1486,28 +1486,6 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
 </package>
-<package name="01005_CAP">
-<smd name="P$1" x="0" y="0.19" dx="0.22" dy="0.2" layer="1"/>
-<smd name="P$2" x="0" y="-0.19" dx="0.22" dy="0.2" layer="1"/>
-<wire x1="-0.08" y1="0" x2="0.08" y2="0" width="0.05" layer="25"/>
-<text x="-0.32" y="0.36" size="0.127" layer="25">&gt;NAME</text>
-</package>
-<package name="0201_CAP">
-<smd name="P$1" x="0" y="0.22" dx="0.3" dy="0.21" layer="1"/>
-<smd name="P$2" x="0" y="-0.22" dx="0.3" dy="0.21" layer="1"/>
-<wire x1="-0.13" y1="0" x2="0.12" y2="0" width="0.05" layer="21"/>
-<text x="-0.36" y="0.4" size="0.127" layer="25">&gt;NAME</text>
-</package>
-<package name="1210_CAP">
-<smd name="1" x="0" y="1.55" dx="2.4" dy="1.6" layer="1"/>
-<smd name="2" x="0" y="-1.55" dx="2.4" dy="1.6" layer="1"/>
-<wire x1="1.4" y1="1.75" x2="1.4" y2="0" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0" x2="1.4" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.75" x2="-1.4" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="0" x2="-1.4" y2="1.75" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="0" x2="1.4" y2="0" width="0.127" layer="21"/>
-<text x="0" y="2.54" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-</package>
 <package name="0805_CAP">
 <description>Based on muRata GRM capacitor specifications</description>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
@@ -1558,16 +1536,6 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CAPACITOR">
-<pin name="2" x="0" y="-5.08" visible="off" length="point" rot="R90"/>
-<pin name="1" x="0" y="2.54" visible="off" length="point" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<rectangle x1="-1.143" y1="-1.016" x2="1.143" y2="-0.508" layer="94"/>
-<rectangle x1="-1.143" y1="-2.032" x2="1.143" y2="-1.524" layer="94"/>
-<text x="-1.27" y="-1.27" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center">&gt;VALUE</text>
-</symbol>
 <symbol name="FERRITE_BEAD">
 <wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
@@ -1597,68 +1565,6 @@ https://www.vishay.com/docs/72821/72821.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
-<description>SMD Capacitor</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0402_CAP" package="0402_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603_CAP" package="0603_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="01005_CAP" package="01005_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0201_CAP" package="0201_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1210_CAP" package="1210_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805_CAP" package="0805_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FERRITE_BEAD" prefix="FB" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
@@ -12486,12 +12392,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="GRM033R61E103KA12D"/>
 </part>
 <part name="C22" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DIGIKEY" value="490-6328-1-ND"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM155R71C104KA88J "/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C42" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="10uF">
-<attribute name="DIGIKEY" value="490-14372-1-ND"/>
+<attribute name="DIGIKEY" value="490-12538-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MPN" value="GRM188R60J106KE47D"/>
 </part>
@@ -12571,16 +12477,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="B1" library="batteries" deviceset="MS518SE" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C32" library="passives" deviceset="CAPACITOR" device="0402_CAP" value="1uF">
-<attribute name="DIGIKEY" value="399-3118-1-ND"/>
-<attribute name="MANUFACTURER" value="KEMET"/>
-<attribute name="MPN" value="C0603C105K8PACTU"/>
-</part>
-<part name="C6" library="passives" deviceset="CAPACITOR" device="0402_CAP" value="47pF">
-<attribute name="DIGIKEY" value="311-1065-1-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MPN" value="CC0603JRNPO9BN470"/>
-</part>
 <part name="X1" library="crystals" deviceset="ABS07-32.768KHZ" device="-7-T"/>
 <part name="R14" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="10k">
 <attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
@@ -12649,7 +12545,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
-<part name="C29" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF">
+<part name="C29" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF">
 <attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MPN" value="GRM033R61A104ME15D"/>
@@ -12691,9 +12587,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="RC0603JR-072M2L"/>
 </part>
 <part name="C23" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DIGIKEY" value="490-6328-1-ND"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM155R71C104KA88J "/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="SUPPLY2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12727,7 +12623,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
-<part name="C28" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF"/>
+<part name="C28" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF">
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
+</part>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R36" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:8118505/1" value="1.3M">
 <attribute name="DIGIKEY" value="YAG3326CT-ND"/>
@@ -12794,9 +12694,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="C0603C105K8PACTU"/>
 </part>
 <part name="C24" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DIGIKEY" value="490-6328-1-ND"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM155R71C104KA88J "/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C40" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="4.7uF">
 <attribute name="DIGIKEY" value="490-10992-1-ND"/>
@@ -12804,19 +12704,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="ZRB18AR6YA475KE05L"/>
 </part>
 <part name="C25" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DIGIKEY" value="490-6328-1-ND"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM155R71C104KA88J "/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C26" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DIGIKEY" value="490-6328-1-ND"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM155R71C104KA88J "/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C27" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="0.1uF">
-<attribute name="DIGIKEY" value="490-6328-1-ND"/>
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MPN" value="GRM155R71C104KA88J "/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C14" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100pF">
 <attribute name="DIGIKEY" value="311-1069-1-ND"/>
@@ -13010,11 +12910,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MPN" value="GRM033R61E103KA12D"/>
 </part>
-<part name="C30" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="100nF">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V X7R 0402"/>
-<attribute name="DIGIKEY" value="490-10777-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MPN" value="GRM155R71A104JA01D"/>
+<part name="C30" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value=".1uF">
+<attribute name="DIGIKEY" value="490-5405-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM033R61A104ME15D"/>
 </part>
 <part name="C46" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="C-US" device="C1210" package3d_urn="urn:adsk.eagle:package:8118591/1" value="100uF">
 <attribute name="DIGIKEY" value="490-9969-1-ND"/>
@@ -13191,6 +13090,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP26" library="headers" deviceset="TEST-POINT" device=""/>
 <part name="TP28" library="headers" deviceset="TEST-POINT" device=""/>
 <part name="TP27" library="headers" deviceset="TEST-POINT" device=""/>
+<part name="C32" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="1uF">
+<attribute name="DIGIKEY" value="399-3118-1-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MPN" value="C0603C105K8PACTU"/>
+</part>
+<part name="C6" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_L" package3d_urn="urn:adsk.eagle:package:2593727/1" value="47pF">
+<attribute name="DIGIKEY" value="399-3118-1-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MPN" value="C0603C105K8PACTU"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13607,20 +13516,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="GND11" gate="1" x="83.82" y="-60.96" smashed="yes">
 <attribute name="VALUE" x="81.28" y="-63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="C32" gate="G$1" x="-20.32" y="-27.94" smashed="yes">
-<attribute name="DIGIKEY" x="-20.32" y="-27.94" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
-<attribute name="MANUFACTURER" x="-20.32" y="-27.94" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
-<attribute name="MPN" x="-20.32" y="-27.94" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
-<attribute name="NAME" x="-21.59" y="-29.21" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-19.05" y="-29.21" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="C6" gate="G$1" x="27.94" y="-38.1" smashed="yes">
-<attribute name="DIGIKEY" x="27.94" y="-38.1" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
-<attribute name="MANUFACTURER" x="27.94" y="-38.1" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
-<attribute name="MPN" x="27.94" y="-38.1" size="1.016" layer="96" rot="R270" align="bottom-center" display="off"/>
-<attribute name="NAME" x="26.67" y="-39.37" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="29.21" y="-39.37" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
-</instance>
 <instance part="X1" gate="G$1" x="15.24" y="-30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.86" y="-27.94" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="20.32" y="-27.94" size="1.27" layer="96" rot="R270"/>
@@ -13681,6 +13576,20 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="SUPPLY15" gate="G$1" x="147.32" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="147.32" y="-4.826" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="C32" gate="C$1" x="-20.32" y="-27.94" smashed="yes">
+<attribute name="DIGIKEY" x="-20.32" y="-27.94" size="1.016" layer="96" align="bottom-center" display="off"/>
+<attribute name="MANUFACTURER" x="-20.32" y="-27.94" size="1.016" layer="96" align="bottom-center" display="off"/>
+<attribute name="MPN" x="-20.32" y="-27.94" size="1.016" layer="96" align="bottom-center" display="off"/>
+<attribute name="NAME" x="-21.59" y="-29.21" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-19.05" y="-29.21" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="C6" gate="C$1" x="27.94" y="-38.1" smashed="yes">
+<attribute name="DIGIKEY" x="27.94" y="-38.1" size="1.016" layer="96" align="bottom-center" display="off"/>
+<attribute name="MANUFACTURER" x="27.94" y="-38.1" size="1.016" layer="96" align="bottom-center" display="off"/>
+<attribute name="MPN" x="27.94" y="-38.1" size="1.016" layer="96" align="bottom-center" display="off"/>
+<attribute name="NAME" x="26.67" y="-39.37" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="29.21" y="-39.37" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13716,17 +13625,16 @@ If we don't have VCC the particle won't be on anyways.</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="B1" gate="G$1" pin="-"/>
 <wire x1="-2.54" y1="-45.72" x2="-2.54" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="-40.64" x2="-2.54" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-33.02" x2="-20.32" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-40.64" x2="-2.54" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-40.64"/>
+<pinref part="C32" gate="C$1" pin="2"/>
+<wire x1="-20.32" y1="-40.64" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="VSS"/>
 <wire x1="83.82" y1="-58.42" x2="83.82" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-55.88" x2="83.82" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-53.34" x2="83.82" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-43.18" x2="27.94" y2="-55.88" width="0.1524" layer="91"/>
@@ -13737,6 +13645,7 @@ If we don't have VCC the particle won't be on anyways.</text>
 <wire x1="101.6" y1="-43.18" x2="101.6" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-53.34" x2="83.82" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="83.82" y="-53.34"/>
+<pinref part="C6" gate="C$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="EXTI"/>
@@ -13866,10 +13775,10 @@ If we don't have VCC the particle won't be on anyways.</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-35.56" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="AF"/>
 <wire x1="27.94" y1="-33.02" x2="66.04" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="C6" gate="C$1" pin="1"/>
+<wire x1="27.94" y1="-33.02" x2="27.94" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -13907,8 +13816,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="C32" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
@@ -13922,6 +13829,8 @@ If we don't have VCC the particle won't be on anyways.</text>
 <wire x1="45.72" y1="-35.56" x2="45.72" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="45.72" y="-17.78"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
+<pinref part="C32" gate="C$1" pin="1"/>
+<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -14395,7 +14304,6 @@ If we don't have VCC the particle won't be on anyways.</text>
 <attribute name="MPN" x="599.44" y="111.76" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="598.17" y="110.49" size="1.778" layer="95" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="600.71" y="110.49" size="1.778" layer="96" ratio="12" rot="R270" align="bottom-center"/>
-<attribute name="MANUFACTURER" x="599.44" y="111.76" size="1.778" layer="96"/>
 </instance>
 <instance part="C26" gate="C$1" x="739.14" y="144.78" smashed="yes">
 <attribute name="DIGIKEY" x="739.14" y="144.78" size="1.778" layer="96" display="off"/>
@@ -15125,6 +15033,9 @@ If we don't have VCC the particle won't be on anyways.</text>
 <instance part="C28" gate="C$1" x="33.02" y="-27.94" smashed="yes">
 <attribute name="NAME" x="34.544" y="-27.559" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.544" y="-32.639" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="33.02" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="33.02" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="33.02" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="33.02" y="-35.56" smashed="yes">
 <attribute name="VALUE" x="33.02" y="-35.814" size="1.778" layer="96" align="top-center"/>
