@@ -4,6 +4,7 @@
 
 #pragma once
 
+
 #define BLE_ADVERTISING_ENABLED 0
 #define NRF_BLE_CONN_PARAMS_ENABLED 0
 #define NRF_BLE_GATT_ENABLED 0

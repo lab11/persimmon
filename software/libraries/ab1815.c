@@ -12,7 +12,7 @@ static ab1815_alarm_callback* interrupt_callback;
 void ab1815_init(const nrf_drv_spi_t* instance) {
   spi_instance = instance;
 
-  spi_config.sck_pin    = SPI_SCLK;
+  // spi_config.sck_pin    = SPI_SCLK;
   spi_config.miso_pin   = SPI_MISO;
   spi_config.mosi_pin   = SPI_MOSI;
   spi_config.ss_pin     = RTC_CS;
