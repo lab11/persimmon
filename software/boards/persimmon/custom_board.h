@@ -32,7 +32,7 @@
 // SPI
 #define SPI_MISO NRF_GPIO_PIN_MAP(0,15)
 #define SPI_MOSI NRF_GPIO_PIN_MAP(0,13)
-#define SPI_SCLK NRF_GPIO_PIN_MAP(0,0)
+#define SPI_SCLK NRF_GPIO_PIN_MAP(0,27)
 
 
 #define CS_SD NRF_GPIO_PIN_MAP(0,20)
@@ -59,6 +59,16 @@
 #define BATIN NRF_GPIO_PIN_MAP(1,6)
 
 #define NRF_RST NRF_GPIO_PIN_MAP(0,18)
+
+//compatbility with softdevice
+
+#define SD_CARD_ENABLE      SD_ENABLE
+#define SD_CARD_SPI_CS      CS_SD
+#define SD_CARD_SPI_MISO    SPI_MISO
+#define SD_CARD_SPI_MOSI    SPI_MOSI
+#define SD_CARD_SPI_SCLK    SPI_SCLK
+
+#define SD_CARD_SPI_INSTANCE    NRF_SPI1
 
 //RTC
 #define RTC_CS      NRF_GPIO_PIN_MAP(0,12)

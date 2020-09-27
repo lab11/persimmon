@@ -24,11 +24,13 @@ int main(void) {
 
   printf("\nRTC TEST\n");
 
-  // // Turn on power gate
-  // nrf_gpio_cfg_output(MAX44009_EN);
-  // nrf_gpio_cfg_output(ISL29125_EN);
-  // nrf_gpio_cfg_output(MS5637_EN);
-  // nrf_gpio_cfg_output(SI7021_EN);
+  // Turn on power gate
+
+  // nrf_gpio_cfg_output(MAX44009_EN); ambient light
+  // nrf_gpio_cfg_output(ISL29125_EN); rgb?
+  // nrf_gpio_cfg_output(MS5637_EN); pressure 
+  // nrf_gpio_cfg_output(SI7021_EN); humidity
+
   // nrf_gpio_pin_set(MAX44009_EN);
   // nrf_gpio_pin_set(ISL29125_EN);
   // nrf_gpio_pin_set(MS5637_EN);
